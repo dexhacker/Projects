@@ -1,0 +1,25 @@
+package main
+
+import (
+    "fmt"
+    "math"
+)
+
+type Vertex8 struct {
+    X, Y float64
+}
+
+func Abs2(v Vertex8) float64 {
+    return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+func Scale(v *Vertex8, f float64) {
+    v.X = v.X * f
+    v.Y = v.Y * f
+}
+
+func main() {
+    v := Vertex8{3, 4}
+    Scale(&v, 10)
+    fmt.Println(Abs2(v))
+}
