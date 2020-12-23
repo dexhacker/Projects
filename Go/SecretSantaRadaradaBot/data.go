@@ -23,10 +23,6 @@ func (d *Data) AddUser(user *tgbotapi.User, chat *tgbotapi.Chat) {
 	d.clients[id] = NewClient(user.UserName, chat, user.ID)
 }
 
-func (d *Data) FindUser(user *tgbotapi.User) *Client {
-	return d.clients[user.UserName]
-}
-
 func (d *Data) CreateRoom(client *Client) *Room {
 	room := NewRoom(len(d.rooms) + 1, client)
 	client.SetCurrentRoom(room)

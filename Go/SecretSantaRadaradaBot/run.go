@@ -11,10 +11,10 @@ import (
 type Run struct {
 	message *tgbotapi.Message
 	data    *Data
-	bot     *tgbotapi.BotAPI
+	bot     BotSender
 }
 
-func NewRun(message *tgbotapi.Message, data *Data, bot *tgbotapi.BotAPI) *Run {
+func NewRun(message *tgbotapi.Message, data *Data, bot BotSender) *Run {
 	return &Run{message: message, data: data, bot: bot}
 }
 
@@ -57,17 +57,8 @@ func (r *Run) sendMessage(client *Client, targetClient *Client)  {
 	msg := tgbotapi.NewMessage(client.GetChat().ID, message)
 	_, err := r.bot.Send(msg)
 	if err != nil {
-		log.Fatal(err.Error())
+		log.Fatalf("Error (sendMessage): %v", err.Error())
 	}
-}
-
-func hasInSlice(clients []*Client, client *Client) bool {
-	for _, clientItem := range clients {
-		if client.GetUserName() == clientItem.GetUserName() {
-			return true
-		}
-	}
-	return false
 }
 
 func getNotHasSantaClients(allClients []*Client, hasSanta []*Client) []*Client {
