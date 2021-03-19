@@ -25,7 +25,6 @@ int super_ugly_number::Solution::nthSuperUglyNumber(int n, vector<int> &primes) 
             }
         }
 
-
         ans.push_back(min);
 
         for (int index : min_indexes) {

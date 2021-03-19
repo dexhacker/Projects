@@ -16,35 +16,31 @@ int live_count(vector<vector<int>> &board, int i, int j) {
     for (int x = x_start; x <= x_finish; x++) {
         for (int y = y_start; y <= y_finish; y++) {
             if (x == i && y == j) continue;
-            if (board[x][y] == 1) count++;
+            if (board[x][y] % 2 == 1) count++;
         }
     }
     return count;
 }
 
 void game_of_life::Solution::gameOfLife(vector<vector<int>> &board) {
-    vector<vector<int>> answer;
     for (int i = 0; i < board.size(); i++) {
-        vector<int> row;
         for (int j = 0; j < board[i].size(); j++) {
-            if (board[i][j] == 0) {
+            if (board[i][j] % 2 == 0) {
                 if (live_count(board, i, j) == 3)
-                    row.push_back(1);
-                else
-                    row.push_back(0);
+                    board[i][j] += 2;
             } else {
                 int live = live_count(board, i, j);
-                if (live < 2 || live > 3) {
-                    row.push_back(0);
-                } else {
-                    row.push_back(1);
-                }
+                if (live == 2 || live == 3)
+                    board[i][j] += 2;
             }
         }
-        answer.push_back(row);
     }
 
-    board = answer;
+    for (int i = 0; i < board.size(); i++) {
+        for (int j = 0; j < board[i].size(); j++) {
+            board[i][j] = (board[i][j] > 1) ? 1 : 0;
+        }
+    }
 }
 
 void game_of_life::Solution::test() {

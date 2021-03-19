@@ -3,49 +3,49 @@
 //
 
 #include "Solution.h"
+#include <set>
 
 random_pick_with_blacklist::Solution::Solution(int N, vector<int> &blacklist) {
-    sort(blacklist.begin(), blacklist.end());
-    if (blacklist.empty()) {
-        vector<int> pair {0, N - 1};
-        numbers.push_back(pair);
-        return;
-    }
+    set<int> set_blacklist(blacklist.begin(), blacklist.end());
+    n = N;
+    int new_number = N - 1;
+    vector<int> mapped_numbers;
 
-    if (blacklist[0] != 0) {
-        vector<int> start_pair {0};
-        if (blacklist[0] > 1) {
-            start_pair.push_back(blacklist[0] - 1);
-        } else {
-            start_pair.push_back(0);
+    for (int i : set_blacklist)
+        hash_map[i] = 0;
+
+    int count = 0 ;
+    for (int i : set_blacklist) {
+        if (new_number >= 0) {
+            while (hash_map.find(new_number) != hash_map.end()) {
+                new_number--;
+                if (new_number < 0) break;
+            }
+
+            if (new_number >= 0) {
+                hash_map[i] = new_number;
+                mapped_numbers.push_back(new_number);
+                new_number--;
+            }
         }
-        numbers.push_back(start_pair);
-    }
 
-    for (int i = 1; i < blacklist.size(); i++) {
-        if (blacklist[i] - blacklist[i - 1] > 1) {
-            vector<int> pair { blacklist[i - 1] + 1,  blacklist[i] - 1};
-            numbers.push_back(pair);
+        if (new_number < 0) {
+            hash_map[i] = mapped_numbers[count];
+            count++;
+            if (count >= mapped_numbers.size()) count = 0;
         }
-    }
-
-    vector<int> finish_pair;
-    if (N - 1 - blacklist[blacklist.size() - 1] > 1) {
-        finish_pair.push_back(blacklist[blacklist.size() - 1] + 1);
-        finish_pair.push_back(N - 1);
-        numbers.push_back(finish_pair);
-    } else {
-         if (N - 1 > blacklist[blacklist.size() - 1]){
-             finish_pair.push_back(N - 1);
-             finish_pair.push_back(N - 1);
-             numbers.push_back(finish_pair);
-         }
     }
 }
 
 int random_pick_with_blacklist::Solution::pick() {
-    vector<int> pair = numbers[rand() % numbers.size()];
-    return (rand() % (pair[1] - pair[0] + 1)) + pair[0];
+    random_device rd;
+    gen = mt19937(rd());
+
+    int random_number = dis(gen) % n;
+    if (hash_map.find(random_number) != hash_map.end())
+        random_number = hash_map[random_number];
+
+    return random_number;
 }
 
 void random_pick_with_blacklist::Solution::test() {
@@ -83,7 +83,7 @@ void random_pick_with_blacklist::Solution::test() {
 //[[3, [0]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
 
 //["Solution", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick"]
-//[[3, [0]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+//[[3, [2]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
 
 //["Solution", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick"]
-//[[3, [2]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+//[[5, [2, 1, 0]], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]

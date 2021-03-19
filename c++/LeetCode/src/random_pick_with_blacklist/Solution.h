@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include <vector>
+#include <unordered_map>
+#include <random>
 
 using namespace std;
 
@@ -19,7 +21,10 @@ namespace random_pick_with_blacklist {
         int pick();
 
     private:
-        vector<vector<int>> numbers;
+        unordered_map<int, int> hash_map;
+        int n;
+        mt19937 gen;
+        uniform_int_distribution<> dis;
     };
 }
 
