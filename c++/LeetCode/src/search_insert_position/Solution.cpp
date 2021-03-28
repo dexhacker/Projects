@@ -6,9 +6,21 @@
 #include <cassert>
 
 int search_insert_position::Solution::searchInsert(vector<int> &nums, int target) {
-    for (int i = 0; i < nums.size(); i++)
-        if (target == nums[i] || target < nums[i]) return i;
-    return nums.size();
+    int l = 0, r = (int)nums.size() - 1;
+    int greater = 0;
+    while (l <= r) {
+        int m = (l + r) / 2;
+        if (nums[m] > target) {
+            greater = m;
+            r = m - 1;
+        } else if (nums[m] < target) {
+            greater = m + 1;
+            l = m + 1;
+        } else {
+            return m;
+        }
+    }
+    return greater;
 }
 
 void search_insert_position::Solution::test() {
