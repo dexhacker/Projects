@@ -8,7 +8,7 @@
 
 using namespace std;
 
-add_two_numbers::ListNode * add_two_numbers::Solution::addTwoNumbers(ListNode *l1, ListNode *l2) {
+ListNode * add_two_numbers::Solution::addTwoNumbers(ListNode *l1, ListNode *l2) {
     int sum = 0;
     ListNode * l3 = nullptr;
     ListNode ** node = &l3;
