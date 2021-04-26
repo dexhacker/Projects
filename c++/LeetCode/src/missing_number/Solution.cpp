@@ -6,13 +6,9 @@
 #include <cassert>
 
 int missing_number::Solution::missingNumber(vector<int> &nums) {
-    int sum_nums = 0;
-    int sum_total = nums.size();
-    for (int i = 0; i < nums.size(); i++) {
-        sum_nums += nums[i];
-        sum_total += i;
-    }
-    return sum_total - sum_nums;
+    int sum = nums.size();
+    for (int i = 0; i < nums.size(); i++) sum += i -nums[i];
+    return sum;
 }
 
 void missing_number::Solution::test() {

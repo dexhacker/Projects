@@ -8,25 +8,32 @@
 ListNode * linked_list_cycle_ii::Solution::detectCycle(ListNode *head) {
     if (head == nullptr) return nullptr;
 
-    auto current_node = head;
-    ListNode* target_node = nullptr;
-    while (current_node != nullptr) {
-        if (current_node->val > 200000) {
-            target_node = current_node;
+    auto slow = head;
+    auto fast = head;
+    bool is_first = true;
+    bool is_cycle = false;
+
+    while (slow and fast and fast->next) {
+        if (!is_first && slow == fast) {
+            is_cycle = true;
             break;
         }
-        current_node->val = current_node->val + 300000;
-        current_node = current_node->next;
-    }
-    if (target_node == nullptr) return nullptr;
 
-    current_node = head;
-    while (current_node->val < 200000) {
-        current_node->val = current_node->val - 300000;
-        current_node = current_node->next;
+        slow = slow->next;
+        fast = fast->next->next;
+        is_first = false;
     }
 
-    return target_node;
+    if (!is_cycle) return nullptr;
+
+    auto current_node = head;
+    while (true) {
+        if (current_node == slow) break;
+        current_node = current_node->next;
+        slow = slow->next;
+    }
+
+    return current_node;
 }
 
 void linked_list_cycle_ii::Solution::test() {
