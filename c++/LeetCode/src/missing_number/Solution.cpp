@@ -24,5 +24,5 @@ void missing_number::Solution::test() {
     vector<int> test4 {0};
     assert(missingNumber(test4) == 1);
 
-    cout << "missingNumber completed!" << std::endl;
+    cout << "missingNumber completed!" << endl;
 }

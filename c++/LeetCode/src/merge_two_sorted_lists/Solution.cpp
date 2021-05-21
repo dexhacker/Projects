@@ -138,5 +138,5 @@ void merge_two_sorted_lists::Solution::test() {
         result4 = result4->next;
     }
 
-    cout << "mergeTwoLists completed!" << std::endl;
+    cout << "mergeTwoLists completed!" << endl;
 }

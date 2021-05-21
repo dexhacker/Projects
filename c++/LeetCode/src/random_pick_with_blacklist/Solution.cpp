@@ -73,7 +73,7 @@ void random_pick_with_blacklist::Solution::test() {
     test4->pick();
     test4->pick();
 
-    std::cout << "random_pick_with_blacklist completed!" << std::endl;
+    cout << "random_pick_with_blacklist completed!" << endl;
 }
 
 //["MinStack", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick", "pick"]

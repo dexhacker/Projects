@@ -34,5 +34,5 @@ void two_sum_ii_input_array_is_sorted::Solution::test() {
     vector<int> answer3 {1, 2};
     assert(twoSum(test3, -1) == answer3);
 
-    std::cout << "twoSum completed!" << std::endl;
+    cout << "twoSum completed!" << endl;
 }

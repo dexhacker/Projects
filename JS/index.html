@@ -1,0 +1,52 @@
+<html>
+    <script>
+        let words = ["boy", "car", "school"];
+        
+        let isContinue = true;
+        while (words.length > 0 && isContinue) {
+            let head_message = "Words for guess: " + words[0];
+            for (let j = 1; j < words.length; j++) {
+                head_message += ", " + words[j];
+            }
+            alert(head_message);
+
+
+            let random_index = Math.floor(Math.random() * words.length);
+            let current_word = words[random_index];
+            let hide_word = "";
+            for (let i = 0; i < current_word.length; i++) {
+                hide_word += "_";
+            }
+
+            let message = "Word " + hide_word + ": ";
+
+            while (true) {
+                let answer = prompt(message);
+
+                if (answer === null) {
+                    isContinue = false;
+                    break;
+                } else if (answer.length != 1) {
+                    message = "Incorrect input\nEnter new letter";
+                    continue;
+                } else {
+                    for (let i = 0; i < current_word.length; i++) {
+                        if (current_word[i] === answer) {
+                            hide_word = hide_word.substr(0, i) + answer + hide_word.substr(i + 1, hide_word.length);
+                        }
+                    }
+                    message = "Word " + hide_word + ": ";
+                }
+                if (current_word === hide_word) {
+                    alert("You win");
+                    words.splice(random_index, 1);
+                    break;
+                }
+            }
+        }
+
+        if (words.length == 0) {
+            alert("You win all game!!!");
+        }
+    </script>
+</html>

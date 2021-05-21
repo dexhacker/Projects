@@ -74,6 +74,29 @@
 #include "src/find_positive_integer_solution_for_a_given_equation/Solution.h"
 #include "src/find_median_from_data_stream/MedianFinder.h"
 #include "src/burst_balloons/Solution.h"
+#include "src/reverse_integer/Solution.h"
+#include "src/range_sum_query_immutable/NumArray.h"
+#include "src/is_subsequence/Solution.h"
+#include "src/min_cost_climbing_stairs/Solution.h"
+#include "src/n_th_tribonacci_number/Solution.h"
+#include "src/word_search/Solution.h"
+#include "src/range_sum_query_2d_immutable/NumMatrix.h"
+#include "src/coin_change/Solution.h"
+#include "src/counting_bits/Solution.h"
+#include "src/unique_substrings_in_wraparound_string/Solution.h"
+#include "src/ones_and_zeroes/Solution.h"
+#include "src/k_th_symbol_in_grammar/Solution.h"
+#include "src/valid_tic_tac_toe_state/Solution.h"
+#include "src/n_queens/Solution.h"
+#include "src/letter_combinations_of_a_phone_number/Solution.h"
+#include "src/permutations/Solution.h"
+#include "src/jump_game/Solution.h"
+#include "src/best_time_to_buy_and_sell_stock_ii/Solution.h"
+#include "src/combination_sum_iii/Solution.h"
+#include "src/maximal_square/Solution.h"
+#include "src/remove_k_digits/Solution.h"
+#include "src/can_place_flowers/Solution.h"
+#include "src/best_time_to_buy_and_sell_stock_with_transaction_fee/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -84,6 +107,7 @@ int main() {
     zigzag_conversion::Solution().test(); // # 6
 
     sum3::Solution().test(); // # 15
+    letter_combinations_of_a_phone_number::Solution().test(); // # 17
     remove_nth_node_from_end_of_list::Solution().test(); // # 19
     valid_parentheses::Solution().test(); // # 20
     merge_two_sorted_lists::Solution().test(); // # 21
@@ -91,13 +115,18 @@ int main() {
     remove_duplicates_from_sorted_array::Solution().test(); // # 26
     search_insert_position::Solution().test(); // # 35
     trapping_rain_water::Solution().test(); // # 42
+    permutations::Solution().test(); // # 46
+    n_queens::Solution().test(); // # 51
     maximum_subarray::Solution().test(); // # 53
+    jump_game::Solution().test(); // # 55
     merge_intervals::Solution().test(); // # 56
     rotate_list::Solution().test(); // # 61
     sqrtx::Solution().test(); // # 69
     minimum_window_substring::Solution().test(); // # 76
+    word_search::Solution().test(); // # 79
     reverse_linked_list_ii::Solution().test(); // # 92
     best_time_to_buy_and_sell_stock::Solution().test(); // # 121
+    best_time_to_buy_and_sell_stock_ii::Solution().test(); // # 122
     valid_palindrome::Solution().test(); // # 123
     word_ladder::Solution().test(); // # 127
     longest_consecutive_sequence::Solution().test(); // # 128
@@ -114,7 +143,9 @@ int main() {
     isomorphic_strings::Solution().test(); // # 205
     reverse_linked_list::Solution().test(); // # 206
     minimum_size_subarray_sum::Solution().test(); // # 209
+    combination_sum_iii::Solution().test(); // # 216
     contains_duplicate::Solution().test(); // # 217
+    maximal_square::Solution().test(); // # 221
     basic_calculator_ii::Solution().test(); // # 227
     implement_queue_using_stacks::MyQueue::test(); // # 232
     delete_node_in_a_linked_list::Solution().test(); // # 237
@@ -124,35 +155,51 @@ int main() {
     h_index_ii::Solution().test(); // # 275
     game_of_life::Solution().test(); // # 289
     find_median_from_data_stream::MedianFinder::test(); // # 295
+    range_sum_query_immutable::NumArray::test(); // # 303
+    range_sum_query_2d_immutable::NumMatrix::test(); // # 304
     burst_balloons::Solution().test(); // # 312
     super_ugly_number::Solution().test(); // # 313
+    coin_change::Solution().test(); // # 322
+    counting_bits::Solution().test(); // # 338
     reverse_string::Solution().test(); // # 344
     reverse_vowels_of_a_string::Solution().test(); // # 345
     top_k_frequent_elements::Solution().test(); // # 347
     intersection_of_two_arrays_ii::Solution().test(); // # 350
     insert_delete_getrandom_o1::RandomizedSet::test(); // # 380
     insert_delete_getrandom_o1_duplicates_allowed::RandomizedCollection::test(); // # 381
+    is_subsequence::Solution().test(); // # 392
+    remove_k_digits::Solution().test(); // # 402
     third_maximum_number::Solution().test(); // # 414
     arranging_coins::Solution().test(); // # 441
     find_all_numbers_disappeared_in_an_array::Solution().test(); // # 448
     sum_ii4::Solution().test(); // # 454
     pattern132::Solution().test(); // # 456
+    unique_substrings_in_wraparound_string::Solution().test(); // # 467
+    ones_and_zeroes::Solution().test(); // # 474
+    k_th_symbol_in_grammar::Solution().test(); // # 746
     complex_number_multiplication::Solution().test(); // # 537
     permutation_in_string::Solution().test(); // # 567
+    can_place_flowers::Solution().test(); // # 605
     task_scheduler::Solution().test(); // # 621
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
     longest_continuous_increasing_subsequence::Solution().test(); // # 674
     to_lower_case::Solution().test(); // # 709
     random_pick_with_blacklist::Solution::test(); // # 710
+    best_time_to_buy_and_sell_stock_with_transaction_fee::Solution().test(); // # 714
+    min_cost_climbing_stairs::Solution().test(); // # 746
+    valid_tic_tac_toe_state::Solution().test(); // # 794
     flipping_an_image::Solution().test(); // # 832
     score_of_parentheses::Solution().test(); // # 856
     number_of_recent_calls::RecentCounter::test(); // # 933
     pairs_of_songs_with_total_durations_divisible_by_60::Solution().test(); // # 1010
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
     distribute_candies_to_people::Solution().test(); // # 1103
+    n_th_tribonacci_number::Solution().test(); // # 1137
     can_make_palindrome_from_substring::Solution().test(); // # 1177
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     count_number_of_nice_subarrays::Solution().test(); // # 1248
+
+//    reverse_integer::Solution().test(); // # 7
 
     return 0;
 }

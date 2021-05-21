@@ -42,5 +42,5 @@ void word_ladder::Solution::test() {
     vector<string> test2 {"hot", "dot", "dog", "lot", "log"};
     assert(ladderLength("hit", "cog", test2) == 0);
 
-    std::cout << "ladderLength completed!" << std::endl;
+    cout << "ladderLength completed!" << endl;
 }

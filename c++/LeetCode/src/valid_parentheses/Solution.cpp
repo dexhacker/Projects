@@ -42,5 +42,5 @@ void valid_parentheses::Solution::test() {
     assert(isValid("[") == false);
     assert(isValid("]") == false);
 
-    std::cout << "isValid completed!" << std::endl;
+    cout << "isValid completed!" << endl;
 }

@@ -27,5 +27,5 @@ void number_of_recent_calls::RecentCounter::test() {
     assert(tes1->ping(3001) == 3);
     assert(tes1->ping(3002) == 3);
 
-    std::cout << "RecentCounter completed!" << std::endl;
+    cout << "RecentCounter completed!" << endl;
 }

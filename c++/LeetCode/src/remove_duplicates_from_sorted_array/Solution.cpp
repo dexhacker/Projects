@@ -28,5 +28,5 @@ void remove_duplicates_from_sorted_array::Solution::test() {
     assert(removeDuplicates(test2) == 5);
     assert(test2 == answer2);
 
-    std::cout << "removeDuplicates completed!" << std::endl;
+    cout << "removeDuplicates completed!" << endl;
 }

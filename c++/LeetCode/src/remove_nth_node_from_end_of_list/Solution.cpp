@@ -63,5 +63,5 @@ void remove_nth_node_from_end_of_list::Solution::test() {
         result4 = result4->next;
     }
 
-    cout << "removeNthFromEnd completed!" << std::endl;
+    cout << "removeNthFromEnd completed!" << endl;
 }

@@ -41,5 +41,5 @@ void permutation_in_string::Solution::test() {
     assert(checkInclusion("ab", "eidboaoo") == false);
     assert(checkInclusion("ab", "a") == false);
 
-    std::cout << "checkInclusion completed!" << std::endl;
+    cout << "checkInclusion completed!" << endl;
 }
