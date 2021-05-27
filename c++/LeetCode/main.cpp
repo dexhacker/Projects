@@ -97,6 +97,35 @@
 #include "src/remove_k_digits/Solution.h"
 #include "src/can_place_flowers/Solution.h"
 #include "src/best_time_to_buy_and_sell_stock_with_transaction_fee/Solution.h"
+#include "src/same_tree/Solution.h"
+#include "src/symmetric_tree/Solution.h"
+#include "src/maximum_depth_of_binary_tree/Solution.h"
+#include "src/path_sum/Solution.h"
+#include "src/pascals_triangle/Solution.h"
+#include "src/single_number/Solution.h"
+#include "src/number_of_islands/Solution.h"
+#include "src/number_of_provinces/Solution.h"
+#include "src/maximum_depth_of_n_ary_tree/Solution.h"
+#include "src/find_the_town_judge/Solution.h"
+#include "src/populating_next_right_pointers_in_each_node/Solution.h"
+#include "src/clone_graph/Solution.h"
+#include "src/redundant_connection/Solution.h"
+#include "src/binary_tree_inorder_traversal/Solution.h"
+#include "src/convert_sorted_array_to_binary_search_tree/Solution.h"
+#include "src/binary_tree_preorder_traversal/Solution.h"
+#include "src/binary_tree_postorder_traversal/Solution.h"
+#include "src/validate_binary_search_tree/Solution.h"
+#include "src/binary_tree_level_order_traversal/Solution.h"
+#include "src/construct_binary_tree_from_preorder_and_inorder_traversal/Solution.h"
+#include "src/construct_binary_tree_from_inorder_and_postorder_traversal/Solution.h"
+#include "src/convert_sorted_list_to_binary_search_tree/Solution.h"
+#include "src/binary_search_tree_iterator/BSTIterator.h"
+#include "src/house_robber/Solution.h"
+#include "src/course_schedule/Solution.h"
+#include "src/kth_smallest_element_in_a_bst/Solution.h"
+#include "src/network_delay_time/Solution.h"
+#include "src/smallest_subtree_with_all_the_deepest_nodes/Solution.h"
+#include "src/path_with_maximum_probability/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -125,28 +154,50 @@ int main() {
     minimum_window_substring::Solution().test(); // # 76
     word_search::Solution().test(); // # 79
     reverse_linked_list_ii::Solution().test(); // # 92
+    binary_tree_inorder_traversal::Solution().test(); // # 94
+    validate_binary_search_tree::Solution().test(); // # 98
+    same_tree::Solution().test(); // # 100
+    symmetric_tree::Solution().test(); // # 101
+    binary_tree_level_order_traversal::Solution().test(); // # 102
+    maximum_depth_of_binary_tree::Solution().test(); // # 104
+    construct_binary_tree_from_preorder_and_inorder_traversal::Solution().test(); // # 105
+    construct_binary_tree_from_inorder_and_postorder_traversal::Solution().test(); // # 106
+    convert_sorted_array_to_binary_search_tree::Solution().test(); // # 108
+    convert_sorted_list_to_binary_search_tree::Solution().test(); // # 109
+    path_sum::Solution().test(); // # 112
+    populating_next_right_pointers_in_each_node::Solution().test(); // # 116
+    pascals_triangle::Solution().test(); // # 118
     best_time_to_buy_and_sell_stock::Solution().test(); // # 121
     best_time_to_buy_and_sell_stock_ii::Solution().test(); // # 122
     valid_palindrome::Solution().test(); // # 123
     word_ladder::Solution().test(); // # 127
     longest_consecutive_sequence::Solution().test(); // # 128
+    clone_graph::Solution().test(); // # 133
+    single_number::Solution().test(); // # 136
     copy_list_with_random_pointer::Solution().test(); // # 138
     linked_list_cycle::Solution().test(); // # 141
     linked_list_cycle_ii::Solution().test(); // # 142
+    binary_tree_preorder_traversal::Solution().test(); // # 144
+    binary_tree_postorder_traversal::Solution().test(); // # 145
     find_minimum_in_rotated_sorted_array::Solution().test(); // # 153
     min_stack::MinStack::test(); // # 155
     find_peak_element::Solution().test(); // # 162
     two_sum_ii_input_array_is_sorted::Solution().test(); // # 167
     majority_element::Solution().test(); // # 169
+    binary_search_tree_iterator::BSTIterator::test(); // # 173
+    house_robber::Solution().test(); // # 198
     binary_tree_right_side_view::Solution().test(); // # 199
+    number_of_islands::Solution().test(); // # 200
     remove_linked_list_elements::Solution().test(); // # 203
     isomorphic_strings::Solution().test(); // # 205
     reverse_linked_list::Solution().test(); // # 206
+    course_schedule::Solution().test(); // # 207
     minimum_size_subarray_sum::Solution().test(); // # 209
     combination_sum_iii::Solution().test(); // # 216
     contains_duplicate::Solution().test(); // # 217
     maximal_square::Solution().test(); // # 221
     basic_calculator_ii::Solution().test(); // # 227
+    kth_smallest_element_in_a_bst::Solution().test(); // # 230
     implement_queue_using_stacks::MyQueue::test(); // # 232
     delete_node_in_a_linked_list::Solution().test(); // # 237
     product_of_array_except_self::Solution().test(); // # 238
@@ -178,19 +229,25 @@ int main() {
     ones_and_zeroes::Solution().test(); // # 474
     k_th_symbol_in_grammar::Solution().test(); // # 746
     complex_number_multiplication::Solution().test(); // # 537
+    number_of_provinces::Solution().test(); // # 547
+    maximum_depth_of_n_ary_tree::Solution().test(); // # 559
     permutation_in_string::Solution().test(); // # 567
     can_place_flowers::Solution().test(); // # 605
     task_scheduler::Solution().test(); // # 621
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
     longest_continuous_increasing_subsequence::Solution().test(); // # 674
+    redundant_connection::Solution().test(); // # 684
     to_lower_case::Solution().test(); // # 709
     random_pick_with_blacklist::Solution::test(); // # 710
     best_time_to_buy_and_sell_stock_with_transaction_fee::Solution().test(); // # 714
+    network_delay_time::Solution().test(); // # 743
     min_cost_climbing_stairs::Solution().test(); // # 746
     valid_tic_tac_toe_state::Solution().test(); // # 794
     flipping_an_image::Solution().test(); // # 832
     score_of_parentheses::Solution().test(); // # 856
+    smallest_subtree_with_all_the_deepest_nodes::Solution().test(); // # 865
     number_of_recent_calls::RecentCounter::test(); // # 933
+    find_the_town_judge::Solution().test(); // # 997
     pairs_of_songs_with_total_durations_divisible_by_60::Solution().test(); // # 1010
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
     distribute_candies_to_people::Solution().test(); // # 1103
@@ -198,6 +255,7 @@ int main() {
     can_make_palindrome_from_substring::Solution().test(); // # 1177
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     count_number_of_nice_subarrays::Solution().test(); // # 1248
+    path_with_maximum_probability::Solution().test(); // # 1514
 
 //    reverse_integer::Solution().test(); // # 7
 
