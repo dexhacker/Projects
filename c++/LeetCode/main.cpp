@@ -126,6 +126,24 @@
 #include "src/network_delay_time/Solution.h"
 #include "src/smallest_subtree_with_all_the_deepest_nodes/Solution.h"
 #include "src/path_with_maximum_probability/Solution.h"
+#include "src/interleaving_string/Solution.h"
+#include "src/prefix_and_suffix_search/WordFilter.h"
+#include "src/max_area_of_island/Solution.h"
+#include "src/powx_n/Solution.h"
+#include "src/subsets/Solution.h"
+#include "src/repeated_dna_sequences/Solution.h"
+#include "src/count_primes/Solution.h"
+#include "src/power_of_two/Solution.h"
+#include "src/sum_of_two_integers/Solution.h"
+#include "src/partition_to_k_equal_sum_subsets/Solution.h"
+#include "src/prime_number_of_set_bits_in_binary_representation/Solution.h"
+#include "src/prime_arrangements/Solution.h"
+#include "src/closest_divisors/Solution.h"
+#include "src/four_divisors/Solution.h"
+#include "src/number_of_ways_to_wear_different_hats_to_each_other/Solution.h"
+#include "src/simplified_fractions/Solution.h"
+#include "src/the_kth_factor_of_n/Solution.h"
+#include "src/maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -145,6 +163,7 @@ int main() {
     search_insert_position::Solution().test(); // # 35
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
+    powx_n::Solution().test(); // # 50
     n_queens::Solution().test(); // # 51
     maximum_subarray::Solution().test(); // # 53
     jump_game::Solution().test(); // # 55
@@ -152,9 +171,11 @@ int main() {
     rotate_list::Solution().test(); // # 61
     sqrtx::Solution().test(); // # 69
     minimum_window_substring::Solution().test(); // # 76
+    subsets::Solution().test(); // # 78
     word_search::Solution().test(); // # 79
     reverse_linked_list_ii::Solution().test(); // # 92
     binary_tree_inorder_traversal::Solution().test(); // # 94
+    interleaving_string::Solution().test(); // # 97
     validate_binary_search_tree::Solution().test(); // # 98
     same_tree::Solution().test(); // # 100
     symmetric_tree::Solution().test(); // # 101
@@ -185,10 +206,12 @@ int main() {
     two_sum_ii_input_array_is_sorted::Solution().test(); // # 167
     majority_element::Solution().test(); // # 169
     binary_search_tree_iterator::BSTIterator::test(); // # 173
+    repeated_dna_sequences::Solution().test(); // # 187
     house_robber::Solution().test(); // # 198
     binary_tree_right_side_view::Solution().test(); // # 199
     number_of_islands::Solution().test(); // # 200
     remove_linked_list_elements::Solution().test(); // # 203
+    count_primes::Solution().test(); // # 204
     isomorphic_strings::Solution().test(); // # 205
     reverse_linked_list::Solution().test(); // # 206
     course_schedule::Solution().test(); // # 207
@@ -198,6 +221,7 @@ int main() {
     maximal_square::Solution().test(); // # 221
     basic_calculator_ii::Solution().test(); // # 227
     kth_smallest_element_in_a_bst::Solution().test(); // # 230
+    power_of_two::Solution().test(); // # 231
     implement_queue_using_stacks::MyQueue::test(); // # 232
     delete_node_in_a_linked_list::Solution().test(); // # 237
     product_of_array_except_self::Solution().test(); // # 238
@@ -216,6 +240,7 @@ int main() {
     reverse_vowels_of_a_string::Solution().test(); // # 345
     top_k_frequent_elements::Solution().test(); // # 347
     intersection_of_two_arrays_ii::Solution().test(); // # 350
+    sum_of_two_integers::Solution().test(); // # 371
     insert_delete_getrandom_o1::RandomizedSet::test(); // # 380
     insert_delete_getrandom_o1_duplicates_allowed::RandomizedCollection::test(); // # 381
     is_subsequence::Solution().test(); // # 392
@@ -237,11 +262,15 @@ int main() {
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
     longest_continuous_increasing_subsequence::Solution().test(); // # 674
     redundant_connection::Solution().test(); // # 684
+    max_area_of_island::Solution().test(); // # 695
+    partition_to_k_equal_sum_subsets::Solution().test(); // # 698
     to_lower_case::Solution().test(); // # 709
     random_pick_with_blacklist::Solution::test(); // # 710
     best_time_to_buy_and_sell_stock_with_transaction_fee::Solution().test(); // # 714
     network_delay_time::Solution().test(); // # 743
+    prefix_and_suffix_search::WordFilter::test(); // # 745
     min_cost_climbing_stairs::Solution().test(); // # 746
+    prime_number_of_set_bits_in_binary_representation::Solution().test(); // # 762
     valid_tic_tac_toe_state::Solution().test(); // # 794
     flipping_an_image::Solution().test(); // # 832
     score_of_parentheses::Solution().test(); // # 856
@@ -252,9 +281,16 @@ int main() {
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
     distribute_candies_to_people::Solution().test(); // # 1103
     n_th_tribonacci_number::Solution().test(); // # 1137
+    prime_arrangements::Solution().test(); // # 1175
     can_make_palindrome_from_substring::Solution().test(); // # 1177
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     count_number_of_nice_subarrays::Solution().test(); // # 1248
+    closest_divisors::Solution().test(); // # 1362
+    four_divisors::Solution().test(); // # 1390
+    number_of_ways_to_wear_different_hats_to_each_other::Solution().test(); // # 1434
+    simplified_fractions::Solution().test(); // # 1447
+    maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts::Solution().test(); // # 1465
+    the_kth_factor_of_n::Solution().test(); // # 1492
     path_with_maximum_probability::Solution().test(); // # 1514
 
 //    reverse_integer::Solution().test(); // # 7

@@ -57,5 +57,5 @@ void insert_delete_getrandom_o1_duplicates_allowed::RandomizedCollection::test()
     assert(randomizedCollection2->remove(0) == false);
     randomizedCollection2->getRandom();
 
-    std::cout << "RandomizedCollection completed!" << std::endl;
+    cout << "RandomizedCollection completed!" << endl;
 }

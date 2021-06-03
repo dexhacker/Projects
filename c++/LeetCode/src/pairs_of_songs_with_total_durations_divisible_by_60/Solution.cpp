@@ -25,5 +25,5 @@ void pairs_of_songs_with_total_durations_divisible_by_60::Solution::test() {
     vector<int> test2 {60,60,60};
     assert(numPairsDivisibleBy60(test2) == 3);
 
-    std::cout << "numPairsDivisibleBy60 completed!" << std::endl;
+    cout << "numPairsDivisibleBy60 completed!" << endl;
 }
