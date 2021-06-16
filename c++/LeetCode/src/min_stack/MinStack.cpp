@@ -47,5 +47,5 @@ void min_stack::MinStack::test() {
     assert(testStack->top() == 0);
     assert(testStack->getMin() == -2);
 
-    std::cout << "MinStack completed!" << std::endl;
+    cout << "MinStack completed!" << endl;
 }

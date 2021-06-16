@@ -58,5 +58,5 @@ void merge_intervals::Solution::test() {
     vector<vector<int>> answer4 = {{2, 4}, {5, 5}};
     assert(merge(test4) == answer4);
 
-    std::cout << "merge completed!" << std::endl;
+    cout << "merge completed!" << endl;
 }

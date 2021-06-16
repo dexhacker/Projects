@@ -27,5 +27,5 @@ void product_of_array_except_self::Solution::test() {
     vector<int> answer2 {0, 0, 9, 0, 0};
     assert(productExceptSelf(test2) == answer2);
 
-    std::cout << "productExceptSelf completed!" << std::endl;
+    cout << "productExceptSelf completed!" << endl;
 }

@@ -36,5 +36,5 @@ void two_sum::Solution::test() {
     vector<int> result3 {0, 1};
     assert(twoSum(nums3, target3) == result3);
 
-    std::cout << "twoSum completed!" << std::endl;
+    cout << "twoSum completed!" << endl;
 }

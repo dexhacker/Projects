@@ -48,5 +48,5 @@ void insert_delete_getrandom_o1::RandomizedSet::test() {
     assert(randomizedSet2->remove(0) == false);
 
 
-    std::cout << "RandomizedSet completed!" << std::endl;
+    cout << "RandomizedSet completed!" << endl;
 }

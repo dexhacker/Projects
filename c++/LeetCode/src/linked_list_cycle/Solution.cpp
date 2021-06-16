@@ -38,5 +38,5 @@ void linked_list_cycle::Solution::test() {
     auto test3_list_node1 = new ListNode(1);
     assert(hasCycle(test3_list_node1) == false);
 
-    cout << "hasCycle completed!" << std::endl;
+    cout << "hasCycle completed!" << endl;
 }

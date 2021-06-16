@@ -39,5 +39,5 @@ void search_insert_position::Solution::test() {
     vector<int> test5 {1};
     assert(searchInsert(test4, 0) == 0);
 
-    std::cout << "searchInsert completed!" << std::endl;
+    cout << "searchInsert completed!" << endl;
 }

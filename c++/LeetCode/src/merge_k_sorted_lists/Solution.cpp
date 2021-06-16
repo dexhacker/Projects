@@ -70,5 +70,5 @@ void merge_k_sorted_lists::Solution::test() {
 
     assert(mergeKLists(test1)->val == test1_answer1->val);
 
-    std::cout << "mergeKLists completed!" << std::endl;
+    cout << "mergeKLists completed!" << endl;
 }

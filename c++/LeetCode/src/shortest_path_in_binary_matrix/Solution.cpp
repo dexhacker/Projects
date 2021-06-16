@@ -77,5 +77,5 @@ void shortest_path_in_binary_matrix::Solution::test() {
     };
     assert(shortestPathBinaryMatrix(test6) == 14);
 
-    std::cout << "shortestPathBinaryMatrix completed!" << std::endl;
+    cout << "shortestPathBinaryMatrix completed!" << endl;
 };

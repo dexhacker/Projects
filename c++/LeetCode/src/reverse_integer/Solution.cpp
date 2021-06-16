@@ -6,10 +6,20 @@
 #include <cassert>
 
 int reverse_integer::Solution::reverse(int x) {
-    char minus;
-    string x_string = to_string(x);
-    if (x_string[0] == '-') {
-        minus = '-';
+    string s = to_string(x);
+    int l = 0, r = s.size() - 1;
+    if (x < 0) l = 1;
+    while (l < r) {
+        char tmp = s[l];
+        s[l] = s[r];
+        s[r] = tmp;
+        l++;
+        r--;
+    }
+    try {
+        return stoi(s);
+    } catch (const out_of_range& e) {
+        return 0;
     }
 }
 

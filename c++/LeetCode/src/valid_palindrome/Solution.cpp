@@ -41,5 +41,5 @@ void valid_palindrome::Solution::test() {
     assert(isPalindrome("ab_a") == true);
     assert(isPalindrome("Marge, let's \"[went].\" I await {news} telegram.") == true);
 
-    std::cout << "isPalindrome completed!" << std::endl;
+    cout << "isPalindrome completed!" << endl;
 }

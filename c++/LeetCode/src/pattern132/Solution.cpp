@@ -36,5 +36,5 @@ void pattern132::Solution::test() {
     vector<int> test4 {1, 4, 0, -1, -2, -3, -1, -2};
     assert(find132pattern(test4) == true);
 
-    std::cout << "find132pattern completed!" << std::endl;
+    cout << "find132pattern completed!" << endl;
 }

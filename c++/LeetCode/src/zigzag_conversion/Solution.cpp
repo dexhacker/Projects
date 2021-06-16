@@ -36,5 +36,5 @@ void zigzag_conversion::Solution::test() {
     assert(convert("AA", 1) == "AA");
     assert(convert("AA", 2) == "AA");
 
-    std::cout << "convert completed!" << std::endl;
+    cout << "convert completed!" << endl;
 }

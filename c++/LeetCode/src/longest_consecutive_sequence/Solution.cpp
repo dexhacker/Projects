@@ -46,5 +46,5 @@ void longest_consecutive_sequence::Solution::test() {
     vector<int> test4 {-6, -1, -1, 9, -8, -6, -6, 4, 4, -3, -8, -1};
     assert(longestConsecutive(test4) == 1);
 
-    std::cout << "longestConsecutive completed!" << std::endl;
+    cout << "longestConsecutive completed!" << endl;
 }

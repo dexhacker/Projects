@@ -55,5 +55,5 @@ void minimum_window_substring::Solution::test() {
     assert(minWindow("a", "b") == "");
     assert(minWindow("abc", "ac") == "abc");
 
-    std::cout << "minWindow completed!" << std::endl;
+    cout << "minWindow completed!" << endl;
 }

@@ -48,5 +48,5 @@ void minimum_size_subarray_sum::Solution::test() {
     vector<int> test6 {2, 10, 3};
     assert(minSubArrayLen(6, test6) == 1);
 
-    std::cout << "minSubArrayLen completed!" << std::endl;
+    cout << "minSubArrayLen completed!" << endl;
 }
