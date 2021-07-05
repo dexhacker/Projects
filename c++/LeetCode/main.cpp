@@ -163,6 +163,27 @@
 #include "src/matchsticks_to_square/Solution.h"
 #include "src/generate_parentheses/Solution.h"
 #include "src/integer_to_roman/Solution.h"
+#include "src/number_of_subarrays_with_bounded_maximum/Solution.h"
+#include "src/roman_to_integer/Solution.h"
+#include "src/longest_common_prefix/Solution.h"
+#include "src/range_sum_query_mutable/NumArray.h"
+#include "src/k_inverse_pairs_array/Solution.h"
+#include "src/swim_in_rising_water/Solution.h"
+#include "src/number_of_matching_subsequences/Solution.h"
+#include "src/sum3_closest/Solution.h"
+#include "src/sum4/Solution.h"
+#include "src/swap_nodes_in_pairs/Solution.h"
+#include "src/reverse_nodes_in_k_group/Solution.h"
+#include "src/out_of_boundary_paths/Solution.h"
+#include "src/remove_all_adjacent_duplicates_in_string/Solution.h"
+#include "src/count_of_smaller_numbers_after_self/Solution.h"
+#include "src/candy/Solution.h"
+#include "src/max_consecutive_ones_iii/Solution.h"
+#include "src/lowest_common_ancestor_of_a_binary_tree/Solution.h"
+#include "src/gray_code/Solution.h"
+#include "src/find_k_closest_elements/Solution.h"
+#include "src/fibonacci_number/Solution.h"
+#include "src/count_vowels_permutation/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -177,13 +198,19 @@ int main() {
     regular_expression_matching::Solution().test(); // # 10
     container_with_most_water::Solution().test(); // # 11
     integer_to_roman::Solution().test(); // # 12
+    roman_to_integer::Solution().test(); // # 13
+    longest_common_prefix::Solution().test(); // # 14
     sum3::Solution().test(); // # 15
+    sum3_closest::Solution().test(); // # 16
     letter_combinations_of_a_phone_number::Solution().test(); // # 17
+    sum4::Solution().test(); // # 18
     remove_nth_node_from_end_of_list::Solution().test(); // # 19
     valid_parentheses::Solution().test(); // # 20
     merge_two_sorted_lists::Solution().test(); // # 21
     generate_parentheses::Solution().test(); // # 22
     merge_k_sorted_lists::Solution().test(); // # 23
+    swap_nodes_in_pairs::Solution().test(); // # 24
+    reverse_nodes_in_k_group::Solution().test(); // # 25
     remove_duplicates_from_sorted_array::Solution().test(); // # 26
     search_insert_position::Solution().test(); // # 35
     trapping_rain_water::Solution().test(); // # 42
@@ -198,6 +225,7 @@ int main() {
     minimum_window_substring::Solution().test(); // # 76
     subsets::Solution().test(); // # 78
     word_search::Solution().test(); // # 79
+    gray_code::Solution().test(); // # 89
     reverse_linked_list_ii::Solution().test(); // # 92
     binary_tree_inorder_traversal::Solution().test(); // # 94
     interleaving_string::Solution().test(); // # 97
@@ -219,6 +247,7 @@ int main() {
     word_ladder::Solution().test(); // # 127
     longest_consecutive_sequence::Solution().test(); // # 128
     clone_graph::Solution().test(); // # 133
+    candy::Solution().test(); // # 135
     single_number::Solution().test(); // # 136
     copy_list_with_random_pointer::Solution().test(); // # 138
     linked_list_cycle::Solution().test(); // # 141
@@ -248,6 +277,7 @@ int main() {
     kth_smallest_element_in_a_bst::Solution().test(); // # 230
     power_of_two::Solution().test(); // # 231
     implement_queue_using_stacks::MyQueue::test(); // # 232
+    lowest_common_ancestor_of_a_binary_tree::Solution().test(); // # 236
     delete_node_in_a_linked_list::Solution().test(); // # 237
     product_of_array_except_self::Solution().test(); // # 238
     search_a_2d_matrix_ii::Solution().test(); // # 240
@@ -257,8 +287,10 @@ int main() {
     find_median_from_data_stream::MedianFinder::test(); // # 295
     range_sum_query_immutable::NumArray::test(); // # 303
     range_sum_query_2d_immutable::NumMatrix::test(); // # 304
+    range_sum_query_mutable::NumArray::test(); // # 307
     burst_balloons::Solution().test(); // # 312
     super_ugly_number::Solution().test(); // # 313
+    count_of_smaller_numbers_after_self::Solution().test(); // # 315
     coin_change::Solution().test(); // # 322
     palindrome_pairs::Solution().test(); // # 336
     counting_bits::Solution().test(); // # 338
@@ -279,13 +311,17 @@ int main() {
     unique_substrings_in_wraparound_string::Solution().test(); // # 467
     matchsticks_to_square::Solution().test(); // # 473
     ones_and_zeroes::Solution().test(); // # 474
+    fibonacci_number::Solution().test(); // # 509
+    find_k_closest_elements::Solution().test(); // # 658
     k_th_symbol_in_grammar::Solution().test(); // # 746
     complex_number_multiplication::Solution().test(); // # 537
     number_of_provinces::Solution().test(); // # 547
     maximum_depth_of_n_ary_tree::Solution().test(); // # 559
     permutation_in_string::Solution().test(); // # 567
+    out_of_boundary_paths::Solution().test(); // # 576
     can_place_flowers::Solution().test(); // # 605
     task_scheduler::Solution().test(); // # 621
+    k_inverse_pairs_array::Solution().test(); // # 629
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
     longest_continuous_increasing_subsequence::Solution().test(); // # 674
     redundant_connection::Solution().test(); // # 684
@@ -300,19 +336,25 @@ int main() {
     min_cost_climbing_stairs::Solution().test(); // # 746
     open_the_lock::Solution().test(); // # 752
     prime_number_of_set_bits_in_binary_representation::Solution().test(); // # 762
+    swim_in_rising_water::Solution().test(); // # 778
+    number_of_matching_subsequences::Solution().test(); // # 792
     valid_tic_tac_toe_state::Solution().test(); // # 794
+    number_of_subarrays_with_bounded_maximum::Solution().test(); // # 795
     flipping_an_image::Solution().test(); // # 832
     score_of_parentheses::Solution().test(); // # 856
     smallest_subtree_with_all_the_deepest_nodes::Solution().test(); // # 865
     minimum_number_of_refueling_stops::Solution().test(); // # 871
     number_of_recent_calls::RecentCounter::test(); // # 933
     find_the_town_judge::Solution().test(); // # 997
+    max_consecutive_ones_iii::Solution().test(); // # 1004
     pairs_of_songs_with_total_durations_divisible_by_60::Solution().test(); // # 1010
+    remove_all_adjacent_duplicates_in_string::Solution().test(); // # 1047
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
     distribute_candies_to_people::Solution().test(); // # 1103
     n_th_tribonacci_number::Solution().test(); // # 1137
     prime_arrangements::Solution().test(); // # 1175
     can_make_palindrome_from_substring::Solution().test(); // # 1177
+    count_vowels_permutation::Solution().test(); // # 1220
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     count_number_of_nice_subarrays::Solution().test(); // # 1248
     closest_divisors::Solution().test(); // # 1362
