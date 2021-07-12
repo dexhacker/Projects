@@ -184,6 +184,16 @@
 #include "src/find_k_closest_elements/Solution.h"
 #include "src/fibonacci_number/Solution.h"
 #include "src/count_vowels_permutation/Solution.h"
+#include "src/reshape_the_matrix/Solution.h"
+#include "src/reduce_array_size_to_the_half/Solution.h"
+#include "src/kth_smallest_element_in_a_sorted_matrix/Solution.h"
+#include "src/maximum_length_of_repeated_subarray/Solution.h"
+#include "src/longest_increasing_subsequence/Solution.h"
+#include "src/decode_ways_ii/Solution.h"
+#include "src/count_square_sum_triples/Solution.h"
+#include "src/nearest_exit_from_entrance_in_maze/Solution.h"
+#include "src/sum_game/Solution.h"
+#include "src/minimum_cost_to_reach_destination_in_time/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -285,6 +295,7 @@ int main() {
     h_index_ii::Solution().test(); // # 275
     game_of_life::Solution().test(); // # 289
     find_median_from_data_stream::MedianFinder::test(); // # 295
+    longest_increasing_subsequence::Solution().test(); // # 300
     range_sum_query_immutable::NumArray::test(); // # 303
     range_sum_query_2d_immutable::NumMatrix::test(); // # 304
     range_sum_query_mutable::NumArray::test(); // # 307
@@ -299,6 +310,7 @@ int main() {
     top_k_frequent_elements::Solution().test(); // # 347
     intersection_of_two_arrays_ii::Solution().test(); // # 350
     sum_of_two_integers::Solution().test(); // # 371
+    kth_smallest_element_in_a_sorted_matrix::Solution().test(); // # 378
     insert_delete_getrandom_o1::RandomizedSet::test(); // # 380
     insert_delete_getrandom_o1_duplicates_allowed::RandomizedCollection::test(); // # 381
     is_subsequence::Solution().test(); // # 392
@@ -317,12 +329,14 @@ int main() {
     complex_number_multiplication::Solution().test(); // # 537
     number_of_provinces::Solution().test(); // # 547
     maximum_depth_of_n_ary_tree::Solution().test(); // # 559
+    reshape_the_matrix::Solution().test(); // # 566
     permutation_in_string::Solution().test(); // # 567
     out_of_boundary_paths::Solution().test(); // # 576
     can_place_flowers::Solution().test(); // # 605
     task_scheduler::Solution().test(); // # 621
     k_inverse_pairs_array::Solution().test(); // # 629
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
+    decode_ways_ii::Solution().test(); // # 639
     longest_continuous_increasing_subsequence::Solution().test(); // # 674
     redundant_connection::Solution().test(); // # 684
     max_area_of_island::Solution().test(); // # 695
@@ -330,6 +344,7 @@ int main() {
     to_lower_case::Solution().test(); // # 709
     random_pick_with_blacklist::Solution::test(); // # 710
     best_time_to_buy_and_sell_stock_with_transaction_fee::Solution().test(); // # 714
+    maximum_length_of_repeated_subarray::Solution().test(); // # 718
     my_calendar_i::MyCalendar::test(); // # 729
     network_delay_time::Solution().test(); // # 743
     prefix_and_suffix_search::WordFilter::test(); // # 745
@@ -357,6 +372,7 @@ int main() {
     count_vowels_permutation::Solution().test(); // # 1220
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     count_number_of_nice_subarrays::Solution().test(); // # 1248
+    reduce_array_size_to_the_half::Solution().test(); // # 1338
     closest_divisors::Solution().test(); // # 1362
     maximum_performance_of_a_team::Solution().test(); // # 1383
     four_divisors::Solution().test(); // # 1390
@@ -372,6 +388,10 @@ int main() {
     reduction_operations_to_make_the_array_elements_equal::Solution().test(); // # 1887
     minimum_number_of_flips_to_make_the_binary_string_alternating::Solution().test(); // # 1888
     minimum_space_wasted_from_packaging::Solution().test(); // # 1889
+    count_square_sum_triples::Solution().test(); // # 1925
+    nearest_exit_from_entrance_in_maze::Solution().test(); // # 1926
+    sum_game::Solution().test(); // # 1927
+    minimum_cost_to_reach_destination_in_time::Solution().test(); // # 1928
 
     return 0;
 }
