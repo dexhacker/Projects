@@ -194,6 +194,19 @@
 #include "src/nearest_exit_from_entrance_in_maze/Solution.h"
 #include "src/sum_game/Solution.h"
 #include "src/minimum_cost_to_reach_destination_in_time/Solution.h"
+#include "src/custom_sort_string/Solution.h"
+#include "src/valid_triangle_number/Solution.h"
+#include "src/three_equal_parts/Solution.h"
+#include "src/lowest_common_ancestor_of_a_binary_search_tree/Solution.h"
+#include "src/shuffle_an_array/Solution.h"
+#include "src/push_dominoes/Solution.h"
+#include "src/partition_array_into_disjoint_intervals/Solution.h"
+#include "src/binary_tree_pruning/Solution.h"
+#include "src/word_ladder_ii/Solution.h"
+#include "src/non_negative_integers_without_consecutive_ones/Solution.h"
+#include "src/stone_game/Solution.h"
+#include "src/n_ary_tree_level_order_traversal/Solution.h"
+#include "src/flip_string_to_monotone_increasing/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -254,6 +267,7 @@ int main() {
     best_time_to_buy_and_sell_stock::Solution().test(); // # 121
     best_time_to_buy_and_sell_stock_ii::Solution().test(); // # 122
     valid_palindrome::Solution().test(); // # 123
+    word_ladder_ii::Solution().test(); // # 126
     word_ladder::Solution().test(); // # 127
     longest_consecutive_sequence::Solution().test(); // # 128
     clone_graph::Solution().test(); // # 133
@@ -287,6 +301,7 @@ int main() {
     kth_smallest_element_in_a_bst::Solution().test(); // # 230
     power_of_two::Solution().test(); // # 231
     implement_queue_using_stacks::MyQueue::test(); // # 232
+    lowest_common_ancestor_of_a_binary_search_tree::Solution().test(); // # 235
     lowest_common_ancestor_of_a_binary_tree::Solution().test(); // # 236
     delete_node_in_a_linked_list::Solution().test(); // # 237
     product_of_array_except_self::Solution().test(); // # 238
@@ -313,9 +328,11 @@ int main() {
     kth_smallest_element_in_a_sorted_matrix::Solution().test(); // # 378
     insert_delete_getrandom_o1::RandomizedSet::test(); // # 380
     insert_delete_getrandom_o1_duplicates_allowed::RandomizedCollection::test(); // # 381
+    shuffle_an_array::Solution::test(); // # 384
     is_subsequence::Solution().test(); // # 392
     remove_k_digits::Solution().test(); // # 402
     third_maximum_number::Solution().test(); // # 414
+    n_ary_tree_level_order_traversal::Solution().test(); // # 429
     arranging_coins::Solution().test(); // # 441
     find_all_numbers_disappeared_in_an_array::Solution().test(); // # 448
     sum_ii4::Solution().test(); // # 454
@@ -332,7 +349,9 @@ int main() {
     reshape_the_matrix::Solution().test(); // # 566
     permutation_in_string::Solution().test(); // # 567
     out_of_boundary_paths::Solution().test(); // # 576
+    non_negative_integers_without_consecutive_ones::Solution().test(); // # 600
     can_place_flowers::Solution().test(); // # 605
+    valid_triangle_number::Solution().test(); // # 611
     task_scheduler::Solution().test(); // # 621
     k_inverse_pairs_array::Solution().test(); // # 629
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
@@ -352,13 +371,20 @@ int main() {
     open_the_lock::Solution().test(); // # 752
     prime_number_of_set_bits_in_binary_representation::Solution().test(); // # 762
     swim_in_rising_water::Solution().test(); // # 778
+    custom_sort_string::Solution().test(); // # 791
     number_of_matching_subsequences::Solution().test(); // # 792
     valid_tic_tac_toe_state::Solution().test(); // # 794
     number_of_subarrays_with_bounded_maximum::Solution().test(); // # 795
+    binary_tree_pruning::Solution().test(); // # 814
     flipping_an_image::Solution().test(); // # 832
+    push_dominoes::Solution().test(); // # 838
     score_of_parentheses::Solution().test(); // # 856
     smallest_subtree_with_all_the_deepest_nodes::Solution().test(); // # 865
     minimum_number_of_refueling_stops::Solution().test(); // # 871
+    stone_game::Solution().test(); // # 877
+    partition_array_into_disjoint_intervals::Solution().test(); // # 915
+    flip_string_to_monotone_increasing::Solution().test(); // # 926
+    three_equal_parts::Solution().test(); // # 927
     number_of_recent_calls::RecentCounter::test(); // # 933
     find_the_town_judge::Solution().test(); // # 997
     max_consecutive_ones_iii::Solution().test(); // # 1004
