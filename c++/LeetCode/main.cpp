@@ -208,6 +208,7 @@
 #include "src/n_ary_tree_level_order_traversal/Solution.h"
 #include "src/flip_string_to_monotone_increasing/Solution.h"
 #include "src/consecutive_characters/Solution.h"
+#include "src/remove_element/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -236,6 +237,7 @@ int main() {
     swap_nodes_in_pairs::Solution().test(); // # 24
     reverse_nodes_in_k_group::Solution().test(); // # 25
     remove_duplicates_from_sorted_array::Solution().test(); // # 26
+    remove_element::Solution().test(); // # 27
     search_insert_position::Solution().test(); // # 35
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
