@@ -207,6 +207,7 @@
 #include "src/stone_game/Solution.h"
 #include "src/n_ary_tree_level_order_traversal/Solution.h"
 #include "src/flip_string_to_monotone_increasing/Solution.h"
+#include "src/consecutive_characters/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -403,6 +404,7 @@ int main() {
     maximum_performance_of_a_team::Solution().test(); // # 1383
     four_divisors::Solution().test(); // # 1390
     number_of_ways_to_wear_different_hats_to_each_other::Solution().test(); // # 1434
+    consecutive_characters::Solution().test(); // # 1446
     simplified_fractions::Solution().test(); // # 1447
     maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts::Solution().test(); // # 1465
     the_kth_factor_of_n::Solution().test(); // # 1492

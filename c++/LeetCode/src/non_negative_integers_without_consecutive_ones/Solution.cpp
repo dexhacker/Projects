@@ -18,8 +18,8 @@ void non_negative_integers_without_consecutive_ones::Solution::updateToValid() {
         }
         if (hasOne) {
             if ((number & (1 << i)) > 0) {
-                number += (1 << i + 2);
-                number -= (1 << i + 1);
+                number += (1 << (i + 2));
+                number -= (1 << (i + 1));
                 number -= (1 << i);
                 isFixed = true;
                 continue;
