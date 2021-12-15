@@ -209,6 +209,8 @@
 #include "src/flip_string_to_monotone_increasing/Solution.h"
 #include "src/consecutive_characters/Solution.h"
 #include "src/remove_element/Solution.h"
+#include "src/range_sum_of_bst/Solution.h"
+#include "src/insertion_sort_list/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -281,6 +283,7 @@ int main() {
     linked_list_cycle_ii::Solution().test(); // # 142
     binary_tree_preorder_traversal::Solution().test(); // # 144
     binary_tree_postorder_traversal::Solution().test(); // # 145
+    insertion_sort_list::Solution().test(); // # 147
     find_minimum_in_rotated_sorted_array::Solution().test(); // # 153
     min_stack::MinStack::test(); // # 155
     find_peak_element::Solution().test(); // # 162
@@ -389,6 +392,7 @@ int main() {
     flip_string_to_monotone_increasing::Solution().test(); // # 926
     three_equal_parts::Solution().test(); // # 927
     number_of_recent_calls::RecentCounter::test(); // # 933
+    range_sum_of_bst::Solution().test(); // # 938
     find_the_town_judge::Solution().test(); // # 997
     max_consecutive_ones_iii::Solution().test(); // # 1004
     pairs_of_songs_with_total_durations_divisible_by_60::Solution().test(); // # 1010
