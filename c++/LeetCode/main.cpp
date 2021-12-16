@@ -211,6 +211,7 @@
 #include "src/remove_element/Solution.h"
 #include "src/range_sum_of_bst/Solution.h"
 #include "src/insertion_sort_list/Solution.h"
+#include "src/minimum_height_trees/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -320,6 +321,7 @@ int main() {
     range_sum_query_immutable::NumArray::test(); // # 303
     range_sum_query_2d_immutable::NumMatrix::test(); // # 304
     range_sum_query_mutable::NumArray::test(); // # 307
+    minimum_height_trees::Solution().test(); // # 310
     burst_balloons::Solution().test(); // # 312
     super_ugly_number::Solution().test(); // # 313
     count_of_smaller_numbers_after_self::Solution().test(); // # 315
