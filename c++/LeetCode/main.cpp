@@ -212,6 +212,7 @@
 #include "src/range_sum_of_bst/Solution.h"
 #include "src/insertion_sort_list/Solution.h"
 #include "src/minimum_height_trees/Solution.h"
+#include "src/implement_strstr/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -241,6 +242,7 @@ int main() {
     reverse_nodes_in_k_group::Solution().test(); // # 25
     remove_duplicates_from_sorted_array::Solution().test(); // # 26
     remove_element::Solution().test(); // # 27
+    implement_strstr::Solution().test(); // # 28
     search_insert_position::Solution().test(); // # 35
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
