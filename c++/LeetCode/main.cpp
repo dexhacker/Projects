@@ -214,6 +214,7 @@
 #include "src/minimum_height_trees/Solution.h"
 #include "src/implement_strstr/Solution.h"
 #include "src/decode_string/Solution.h"
+#include "src/minimum_absolute_difference/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -408,6 +409,7 @@ int main() {
     n_th_tribonacci_number::Solution().test(); // # 1137
     prime_arrangements::Solution().test(); // # 1175
     can_make_palindrome_from_substring::Solution().test(); // # 1177
+    minimum_absolute_difference::Solution().test(); // # 1200
     count_vowels_permutation::Solution().test(); // # 1220
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     count_number_of_nice_subarrays::Solution().test(); // # 1248
