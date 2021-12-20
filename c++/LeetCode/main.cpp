@@ -213,6 +213,7 @@
 #include "src/insertion_sort_list/Solution.h"
 #include "src/minimum_height_trees/Solution.h"
 #include "src/implement_strstr/Solution.h"
+#include "src/decode_string/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -340,6 +341,7 @@ int main() {
     insert_delete_getrandom_o1_duplicates_allowed::RandomizedCollection::test(); // # 381
     shuffle_an_array::Solution::test(); // # 384
     is_subsequence::Solution().test(); // # 392
+    decode_string::Solution().test(); // # 394
     remove_k_digits::Solution().test(); // # 402
     third_maximum_number::Solution().test(); // # 414
     n_ary_tree_level_order_traversal::Solution().test(); // # 429
