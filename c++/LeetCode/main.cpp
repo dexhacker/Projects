@@ -215,6 +215,7 @@
 #include "src/implement_strstr/Solution.h"
 #include "src/decode_string/Solution.h"
 #include "src/minimum_absolute_difference/Solution.h"
+#include "src/divide_two_integers/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -245,6 +246,7 @@ int main() {
     remove_duplicates_from_sorted_array::Solution().test(); // # 26
     remove_element::Solution().test(); // # 27
     implement_strstr::Solution().test(); // # 28
+    divide_two_integers::Solution().test(); // # 29
     search_insert_position::Solution().test(); // # 35
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
