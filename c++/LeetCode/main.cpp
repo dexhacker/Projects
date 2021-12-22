@@ -216,6 +216,7 @@
 #include "src/decode_string/Solution.h"
 #include "src/minimum_absolute_difference/Solution.h"
 #include "src/divide_two_integers/Solution.h"
+#include "src/reorder_list/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -288,6 +289,7 @@ int main() {
     copy_list_with_random_pointer::Solution().test(); // # 138
     linked_list_cycle::Solution().test(); // # 141
     linked_list_cycle_ii::Solution().test(); // # 142
+    reorder_list::Solution().test(); // # 143
     binary_tree_preorder_traversal::Solution().test(); // # 144
     binary_tree_postorder_traversal::Solution().test(); // # 145
     insertion_sort_list::Solution().test(); // # 147
