@@ -217,6 +217,7 @@
 #include "src/minimum_absolute_difference/Solution.h"
 #include "src/divide_two_integers/Solution.h"
 #include "src/reorder_list/Solution.h"
+#include "src/numbers_at_most_n_given_digit_set/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -399,6 +400,7 @@ int main() {
     smallest_subtree_with_all_the_deepest_nodes::Solution().test(); // # 865
     minimum_number_of_refueling_stops::Solution().test(); // # 871
     stone_game::Solution().test(); // # 877
+    numbers_at_most_n_given_digit_set::Solution().test(); // # 902
     partition_array_into_disjoint_intervals::Solution().test(); // # 915
     flip_string_to_monotone_increasing::Solution().test(); // # 926
     three_equal_parts::Solution().test(); // # 927
