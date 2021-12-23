@@ -218,6 +218,7 @@
 #include "src/divide_two_integers/Solution.h"
 #include "src/reorder_list/Solution.h"
 #include "src/numbers_at_most_n_given_digit_set/Solution.h"
+#include "src/course_schedule_ii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -310,6 +311,7 @@ int main() {
     reverse_linked_list::Solution().test(); // # 206
     course_schedule::Solution().test(); // # 207
     minimum_size_subarray_sum::Solution().test(); // # 209
+    course_schedule_ii::Solution().test(); // # 210
     combination_sum_iii::Solution().test(); // # 216
     contains_duplicate::Solution().test(); // # 217
     maximal_square::Solution().test(); // # 221
