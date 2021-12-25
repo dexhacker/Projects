@@ -220,6 +220,7 @@
 #include "src/numbers_at_most_n_given_digit_set/Solution.h"
 #include "src/course_schedule_ii/Solution.h"
 #include "src/substring_with_concatenation_of_all_words/Solution.h"
+#include "src/next_permutation/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -252,6 +253,7 @@ int main() {
     implement_strstr::Solution().test(); // # 28
     divide_two_integers::Solution().test(); // # 29
     substring_with_concatenation_of_all_words::Solution().test(); // # 30
+    next_permutation::Solution().test(); // # 31
     search_insert_position::Solution().test(); // # 35
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
