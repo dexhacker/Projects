@@ -221,6 +221,7 @@
 #include "src/course_schedule_ii/Solution.h"
 #include "src/substring_with_concatenation_of_all_words/Solution.h"
 #include "src/next_permutation/Solution.h"
+#include "src/k_closest_points_to_origin/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -412,6 +413,7 @@ int main() {
     three_equal_parts::Solution().test(); // # 927
     number_of_recent_calls::RecentCounter::test(); // # 933
     range_sum_of_bst::Solution().test(); // # 938
+    k_closest_points_to_origin::Solution().test(); // # 973
     find_the_town_judge::Solution().test(); // # 997
     max_consecutive_ones_iii::Solution().test(); // # 1004
     pairs_of_songs_with_total_durations_divisible_by_60::Solution().test(); // # 1010
