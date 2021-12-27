@@ -222,6 +222,8 @@
 #include "src/substring_with_concatenation_of_all_words/Solution.h"
 #include "src/next_permutation/Solution.h"
 #include "src/k_closest_points_to_origin/Solution.h"
+#include "src/number_complement/Solution.h"
+#include "src/complement_of_base_10_integer/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -365,6 +367,7 @@ int main() {
     unique_substrings_in_wraparound_string::Solution().test(); // # 467
     matchsticks_to_square::Solution().test(); // # 473
     ones_and_zeroes::Solution().test(); // # 474
+    number_complement::Solution().test(); // # 476
     fibonacci_number::Solution().test(); // # 509
     find_k_closest_elements::Solution().test(); // # 658
     k_th_symbol_in_grammar::Solution().test(); // # 746
@@ -416,6 +419,7 @@ int main() {
     k_closest_points_to_origin::Solution().test(); // # 973
     find_the_town_judge::Solution().test(); // # 997
     max_consecutive_ones_iii::Solution().test(); // # 1004
+    complement_of_base_10_integer::Solution().test(); // # 1009
     pairs_of_songs_with_total_durations_divisible_by_60::Solution().test(); // # 1010
     remove_all_adjacent_duplicates_in_string::Solution().test(); // # 1047
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
