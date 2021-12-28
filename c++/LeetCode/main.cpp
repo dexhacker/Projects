@@ -224,6 +224,7 @@
 #include "src/k_closest_points_to_origin/Solution.h"
 #include "src/number_complement/Solution.h"
 #include "src/complement_of_base_10_integer/Solution.h"
+#include "src/middle_of_the_linked_list/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -409,6 +410,7 @@ int main() {
     score_of_parentheses::Solution().test(); // # 856
     smallest_subtree_with_all_the_deepest_nodes::Solution().test(); // # 865
     minimum_number_of_refueling_stops::Solution().test(); // # 871
+    middle_of_the_linked_list::Solution().test(); // # 876
     stone_game::Solution().test(); // # 877
     numbers_at_most_n_given_digit_set::Solution().test(); // # 902
     partition_array_into_disjoint_intervals::Solution().test(); // # 915
