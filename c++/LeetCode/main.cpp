@@ -225,6 +225,7 @@
 #include "src/number_complement/Solution.h"
 #include "src/complement_of_base_10_integer/Solution.h"
 #include "src/middle_of_the_linked_list/Solution.h"
+#include "src/longest_valid_parentheses/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -258,6 +259,7 @@ int main() {
     divide_two_integers::Solution().test(); // # 29
     substring_with_concatenation_of_all_words::Solution().test(); // # 30
     next_permutation::Solution().test(); // # 31
+    longest_valid_parentheses::Solution().test(); // # 32
     search_insert_position::Solution().test(); // # 35
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
