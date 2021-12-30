@@ -226,6 +226,7 @@
 #include "src/complement_of_base_10_integer/Solution.h"
 #include "src/middle_of_the_linked_list/Solution.h"
 #include "src/longest_valid_parentheses/Solution.h"
+#include "src/smallest_integer_divisible_by_k/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -425,6 +426,7 @@ int main() {
     max_consecutive_ones_iii::Solution().test(); // # 1004
     complement_of_base_10_integer::Solution().test(); // # 1009
     pairs_of_songs_with_total_durations_divisible_by_60::Solution().test(); // # 1010
+    smallest_integer_divisible_by_k::Solution().test(); // # 1015
     remove_all_adjacent_duplicates_in_string::Solution().test(); // # 1047
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
     distribute_candies_to_people::Solution().test(); // # 1103
