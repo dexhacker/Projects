@@ -228,6 +228,7 @@
 #include "src/longest_valid_parentheses/Solution.h"
 #include "src/smallest_integer_divisible_by_k/Solution.h"
 #include "src/maximum_difference_between_node_and_ancestor/Solution.h"
+#include "src/recover_the_original_array/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -460,6 +461,7 @@ int main() {
     nearest_exit_from_entrance_in_maze::Solution().test(); // # 1926
     sum_game::Solution().test(); // # 1927
     minimum_cost_to_reach_destination_in_time::Solution().test(); // # 1928
+    recover_the_original_array::Solution().test(); // # 2122
 
     return 0;
 }
