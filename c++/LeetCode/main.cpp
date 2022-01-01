@@ -229,6 +229,7 @@
 #include "src/smallest_integer_divisible_by_k/Solution.h"
 #include "src/maximum_difference_between_node_and_ancestor/Solution.h"
 #include "src/recover_the_original_array/Solution.h"
+#include "src/search_in_rotated_sorted_array/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -263,6 +264,7 @@ int main() {
     substring_with_concatenation_of_all_words::Solution().test(); // # 30
     next_permutation::Solution().test(); // # 31
     longest_valid_parentheses::Solution().test(); // # 32
+    search_in_rotated_sorted_array::Solution().test(); // # 33
     search_insert_position::Solution().test(); // # 35
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
