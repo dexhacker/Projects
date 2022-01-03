@@ -231,6 +231,7 @@
 #include "src/recover_the_original_array/Solution.h"
 #include "src/search_in_rotated_sorted_array/Solution.h"
 #include "src/find_first_and_last_position_of_element_in_sorted_array/Solution.h"
+#include "src/valid_sudoku/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -268,6 +269,7 @@ int main() {
     search_in_rotated_sorted_array::Solution().test(); // # 33
     find_first_and_last_position_of_element_in_sorted_array::Solution().test(); // # 34
     search_insert_position::Solution().test(); // # 35
+    valid_sudoku::Solution().test(); // # 36
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
     powx_n::Solution().test(); // # 50
