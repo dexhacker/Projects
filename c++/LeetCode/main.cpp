@@ -232,6 +232,7 @@
 #include "src/search_in_rotated_sorted_array/Solution.h"
 #include "src/find_first_and_last_position_of_element_in_sorted_array/Solution.h"
 #include "src/valid_sudoku/Solution.h"
+#include "src/palindrome_partitioning/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -304,6 +305,7 @@ int main() {
     word_ladder_ii::Solution().test(); // # 126
     word_ladder::Solution().test(); // # 127
     longest_consecutive_sequence::Solution().test(); // # 128
+    palindrome_partitioning::Solution().test(); // # 131
     clone_graph::Solution().test(); // # 133
     candy::Solution().test(); // # 135
     single_number::Solution().test(); // # 136
