@@ -233,6 +233,7 @@
 #include "src/find_first_and_last_position_of_element_in_sorted_array/Solution.h"
 #include "src/valid_sudoku/Solution.h"
 #include "src/palindrome_partitioning/Solution.h"
+#include "src/add_binary/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -279,6 +280,7 @@ int main() {
     jump_game::Solution().test(); // # 55
     merge_intervals::Solution().test(); // # 56
     rotate_list::Solution().test(); // # 61
+    add_binary::Solution().test(); // # 67
     sqrtx::Solution().test(); // # 69
     minimum_window_substring::Solution().test(); // # 76
     subsets::Solution().test(); // # 78
