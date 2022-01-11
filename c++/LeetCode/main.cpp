@@ -234,6 +234,7 @@
 #include "src/valid_sudoku/Solution.h"
 #include "src/palindrome_partitioning/Solution.h"
 #include "src/add_binary/Solution.h"
+#include "src/sum_of_root_to_leaf_binary_numbers/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -439,6 +440,7 @@ int main() {
     complement_of_base_10_integer::Solution().test(); // # 1009
     pairs_of_songs_with_total_durations_divisible_by_60::Solution().test(); // # 1010
     smallest_integer_divisible_by_k::Solution().test(); // # 1015
+    sum_of_root_to_leaf_binary_numbers::Solution().test(); // # 1022
     maximum_difference_between_node_and_ancestor::Solution().test(); // # 1026
     remove_all_adjacent_duplicates_in_string::Solution().test(); // # 1047
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
