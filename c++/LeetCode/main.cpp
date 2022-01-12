@@ -235,6 +235,7 @@
 #include "src/palindrome_partitioning/Solution.h"
 #include "src/add_binary/Solution.h"
 #include "src/sum_of_root_to_leaf_binary_numbers/Solution.h"
+#include "src/insert_into_a_binary_search_tree/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -405,6 +406,7 @@ int main() {
     redundant_connection::Solution().test(); // # 684
     max_area_of_island::Solution().test(); // # 695
     partition_to_k_equal_sum_subsets::Solution().test(); // # 698
+    insert_into_a_binary_search_tree::Solution().test(); // # 701
     to_lower_case::Solution().test(); // # 709
     random_pick_with_blacklist::Solution::test(); // # 710
     best_time_to_buy_and_sell_stock_with_transaction_fee::Solution().test(); // # 714
