@@ -236,6 +236,7 @@
 #include "src/add_binary/Solution.h"
 #include "src/sum_of_root_to_leaf_binary_numbers/Solution.h"
 #include "src/insert_into_a_binary_search_tree/Solution.h"
+#include "src/minimum_number_of_arrows_to_burst_balloons/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -380,6 +381,7 @@ int main() {
     n_ary_tree_level_order_traversal::Solution().test(); // # 429
     arranging_coins::Solution().test(); // # 441
     find_all_numbers_disappeared_in_an_array::Solution().test(); // # 448
+    minimum_number_of_arrows_to_burst_balloons::Solution().test(); // # 452
     sum_ii4::Solution().test(); // # 454
     pattern132::Solution().test(); // # 456
     unique_substrings_in_wraparound_string::Solution().test(); // # 467
