@@ -237,6 +237,7 @@
 #include "src/sum_of_root_to_leaf_binary_numbers/Solution.h"
 #include "src/insert_into_a_binary_search_tree/Solution.h"
 #include "src/minimum_number_of_arrows_to_burst_balloons/Solution.h"
+#include "src/word_pattern/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -353,6 +354,7 @@ int main() {
     missing_number::Solution().test(); // # 268
     h_index_ii::Solution().test(); // # 275
     game_of_life::Solution().test(); // # 289
+    word_pattern::Solution().test(); // # 290
     find_median_from_data_stream::MedianFinder::test(); // # 295
     longest_increasing_subsequence::Solution().test(); // # 300
     range_sum_query_immutable::NumArray::test(); // # 303
