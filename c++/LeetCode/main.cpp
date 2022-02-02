@@ -238,6 +238,7 @@
 #include "src/insert_into_a_binary_search_tree/Solution.h"
 #include "src/minimum_number_of_arrows_to_burst_balloons/Solution.h"
 #include "src/word_pattern/Solution.h"
+#include "src/find_all_anagrams_in_a_string/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -381,6 +382,7 @@ int main() {
     remove_k_digits::Solution().test(); // # 402
     third_maximum_number::Solution().test(); // # 414
     n_ary_tree_level_order_traversal::Solution().test(); // # 429
+    find_all_anagrams_in_a_string::Solution().test(); // # 438
     arranging_coins::Solution().test(); // # 441
     find_all_numbers_disappeared_in_an_array::Solution().test(); // # 448
     minimum_number_of_arrows_to_burst_balloons::Solution().test(); // # 452
