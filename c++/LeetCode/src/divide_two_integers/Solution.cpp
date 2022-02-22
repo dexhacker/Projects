@@ -44,12 +44,12 @@ int divide_two_integers::Solution::divide(int dividend, int divisor) {
         answer = answer - answer - answer;
     }
 
-    if (answer > INT_MAX) {
-        return INT_MAX;
+    if (answer > INT32_MAX) {
+        return INT32_MAX;
     }
 
-    if (answer < INT_MIN) {
-        return INT_MIN;
+    if (answer < INT32_MIN) {
+        return INT32_MIN;
     }
 
     return answer;
