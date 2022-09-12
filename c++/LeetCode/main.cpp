@@ -239,6 +239,7 @@
 #include "src/minimum_number_of_arrows_to_burst_balloons/Solution.h"
 #include "src/word_pattern/Solution.h"
 #include "src/find_all_anagrams_in_a_string/Solution.h"
+#include "src/bag_of_tokens/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -442,6 +443,7 @@ int main() {
     three_equal_parts::Solution().test(); // # 927
     number_of_recent_calls::RecentCounter::test(); // # 933
     range_sum_of_bst::Solution().test(); // # 938
+    bag_of_tokens::Solution().test(); // # 938
     k_closest_points_to_origin::Solution().test(); // # 973
     find_the_town_judge::Solution().test(); // # 997
     max_consecutive_ones_iii::Solution().test(); // # 1004
