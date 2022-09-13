@@ -240,6 +240,7 @@
 #include "src/word_pattern/Solution.h"
 #include "src/find_all_anagrams_in_a_string/Solution.h"
 #include "src/bag_of_tokens/Solution.h"
+#include "src/utf_8_validation/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -379,6 +380,7 @@ int main() {
     insert_delete_getrandom_o1_duplicates_allowed::RandomizedCollection::test(); // # 381
     shuffle_an_array::Solution::test(); // # 384
     is_subsequence::Solution().test(); // # 392
+    utf_8_validation::Solution().test(); // # 393
     decode_string::Solution().test(); // # 394
     remove_k_digits::Solution().test(); // # 402
     third_maximum_number::Solution().test(); // # 414
