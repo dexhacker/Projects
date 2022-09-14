@@ -242,6 +242,7 @@
 #include "src/bag_of_tokens/Solution.h"
 #include "src/utf_8_validation/Solution.h"
 #include "src/pseudo_palindromic_paths_in_a_binary_tree/Solution.h"
+#include "src/sudoku_solver/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -280,6 +281,7 @@ int main() {
     find_first_and_last_position_of_element_in_sorted_array::Solution().test(); // # 34
     search_insert_position::Solution().test(); // # 35
     valid_sudoku::Solution().test(); // # 36
+    sudoku_solver::Solution().test(); // # 37
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
     powx_n::Solution().test(); // # 50
