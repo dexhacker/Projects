@@ -241,6 +241,7 @@
 #include "src/find_all_anagrams_in_a_string/Solution.h"
 #include "src/bag_of_tokens/Solution.h"
 #include "src/utf_8_validation/Solution.h"
+#include "src/pseudo_palindromic_paths_in_a_binary_tree/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -471,6 +472,7 @@ int main() {
     number_of_ways_to_wear_different_hats_to_each_other::Solution().test(); // # 1434
     consecutive_characters::Solution().test(); // # 1446
     simplified_fractions::Solution().test(); // # 1447
+    pseudo_palindromic_paths_in_a_binary_tree::Solution().test(); // # 1457
     maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts::Solution().test(); // # 1465
     the_kth_factor_of_n::Solution().test(); // # 1492
     path_with_maximum_probability::Solution().test(); // # 1514
