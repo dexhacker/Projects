@@ -243,6 +243,7 @@
 #include "src/utf_8_validation/Solution.h"
 #include "src/pseudo_palindromic_paths_in_a_binary_tree/Solution.h"
 #include "src/sudoku_solver/Solution.h"
+#include "src/count_and_say/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -282,6 +283,7 @@ int main() {
     search_insert_position::Solution().test(); // # 35
     valid_sudoku::Solution().test(); // # 36
     sudoku_solver::Solution().test(); // # 37
+    count_and_say::Solution().test(); // # 38
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
     powx_n::Solution().test(); // # 50
