@@ -46,6 +46,8 @@ double find_median_from_data_stream::MedianFinder::findMedian() {
         current = current->next;
         counter++;
     }
+
+    return 0;
 }
 
 void find_median_from_data_stream::MedianFinder::test() {

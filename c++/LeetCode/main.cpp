@@ -246,6 +246,7 @@
 #include "src/count_and_say/Solution.h"
 #include "src/combination_sum/Solution.h"
 #include "src/combination_sum_ii/Solution.h"
+#include "src/first_missing_positive/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -288,6 +289,7 @@ int main() {
     count_and_say::Solution().test(); // # 38
     combination_sum::Solution().test(); // # 39
     combination_sum_ii::Solution().test(); // # 40
+    first_missing_positive::Solution().test(); // # 41
     trapping_rain_water::Solution().test(); // # 42
     permutations::Solution().test(); // # 46
     powx_n::Solution().test(); // # 50
