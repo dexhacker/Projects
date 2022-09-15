@@ -247,6 +247,7 @@
 #include "src/combination_sum/Solution.h"
 #include "src/combination_sum_ii/Solution.h"
 #include "src/first_missing_positive/Solution.h"
+#include "src/find_original_array_from_doubled_array/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -497,6 +498,7 @@ int main() {
     nearest_exit_from_entrance_in_maze::Solution().test(); // # 1926
     sum_game::Solution().test(); // # 1927
     minimum_cost_to_reach_destination_in_time::Solution().test(); // # 1928
+    find_original_array_from_doubled_array::Solution().test(); // # 2007
     recover_the_original_array::Solution().test(); // # 2122
 
     return 0;
