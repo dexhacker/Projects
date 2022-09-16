@@ -249,6 +249,7 @@
 #include "src/first_missing_positive/Solution.h"
 #include "src/find_original_array_from_doubled_array/Solution.h"
 #include "src/maximum_score_from_performing_multiplication_operations/Solution.h"
+#include "src/divisor_game/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -466,6 +467,7 @@ int main() {
     pairs_of_songs_with_total_durations_divisible_by_60::Solution().test(); // # 1010
     smallest_integer_divisible_by_k::Solution().test(); // # 1015
     sum_of_root_to_leaf_binary_numbers::Solution().test(); // # 1022
+    divisor_game::Solution().test(); // # 1025
     maximum_difference_between_node_and_ancestor::Solution().test(); // # 1026
     remove_all_adjacent_duplicates_in_string::Solution().test(); // # 1047
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
