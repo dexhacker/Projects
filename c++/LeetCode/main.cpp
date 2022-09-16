@@ -248,6 +248,7 @@
 #include "src/combination_sum_ii/Solution.h"
 #include "src/first_missing_positive/Solution.h"
 #include "src/find_original_array_from_doubled_array/Solution.h"
+#include "src/maximum_score_from_performing_multiplication_operations/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -490,6 +491,7 @@ int main() {
     jump_game_vi::Solution().test(); // # 1696
     stone_game_vii::Solution().test(); // # 1690
     maximum_units_on_a_truck::Solution().test(); // # 1710
+    maximum_score_from_performing_multiplication_operations::Solution().test(); // # 1770
     determine_whether_matrix_can_be_obtained_by_rotation::Solution().test(); // # 1886
     reduction_operations_to_make_the_array_elements_equal::Solution().test(); // # 1887
     minimum_number_of_flips_to_make_the_binary_string_alternating::Solution().test(); // # 1888
