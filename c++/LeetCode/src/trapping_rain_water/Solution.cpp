@@ -6,42 +6,26 @@
 #include <cassert>
 
 int trapping_rain_water::Solution::trap(vector<int> &height) {
-    if (height.size() < 3) return 0;
+    vector<int> max_l(height.size(), 0);
+    vector<int> max_r(height.size(), 0);
 
-    int l = 0, r = 1, answer = 0;
-    while (l < height.size() && r < height.size()) {
-        if (height[l] > height[r]) {
-            if (r + 1 < height.size()) {
-                r++;
-                continue;
-            } else {
-                int max = 0;
-                int index_of_max = -1;
-                for (int i = l + 1; i < height.size(); i++) {
-                    if (height[i] >= max) {
-                        max = height[i];
-                        index_of_max = i;
-                    }
-                }
-                for (int i = l + 1; i < index_of_max; i++) {
-                    answer += max - height[i];
-                }
-
-                if (index_of_max < 0) break;
-                l = index_of_max;
-                r = l + 1;
-                if (r >=  height.size()) break;
-                continue;
-            }
-        }
-        if (height[l] <= height[r]) {
-            for (int i = l + 1; i < r; i++) {
-                answer += height[l] - height[i];
-            }
-            l = r;
-            r++;
-        }
+    int maximum = 0;
+    for (int i = 0; i < height.size(); i++) {
+        if (height[i] > maximum) maximum = height[i];
+        max_l[i] = maximum;
     }
+
+    maximum = 0;
+    for (int i = height.size() - 1; i >= 0; i--) {
+        if (height[i] > maximum) maximum = height[i];
+        max_r[i] = maximum;
+    }
+
+    int answer = 0;
+    for (int i = 0; i < height.size(); i++) {
+        answer += min(max_l[i], max_r[i]) - height[i];
+    }
+
     return answer;
 }
 

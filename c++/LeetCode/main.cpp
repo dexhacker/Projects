@@ -251,6 +251,7 @@
 #include "src/maximum_score_from_performing_multiplication_operations/Solution.h"
 #include "src/divisor_game/Solution.h"
 #include "src/multiply_strings/Solution.h"
+#include "src/wildcard_matching/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -296,6 +297,7 @@ int main() {
     first_missing_positive::Solution().test(); // # 41
     trapping_rain_water::Solution().test(); // # 42
     multiply_strings::Solution().test(); // # 43
+    wildcard_matching::Solution().test(); // # 44
     permutations::Solution().test(); // # 46
     powx_n::Solution().test(); // # 50
     n_queens::Solution().test(); // # 51
