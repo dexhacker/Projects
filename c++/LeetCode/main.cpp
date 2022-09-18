@@ -253,6 +253,7 @@
 #include "src/multiply_strings/Solution.h"
 #include "src/wildcard_matching/Solution.h"
 #include "src/count_days_spent_together/Solution.h"
+#include "src/maximum_matching_of_players_with_trainers/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -510,6 +511,7 @@ int main() {
     find_original_array_from_doubled_array::Solution().test(); // # 2007
     recover_the_original_array::Solution().test(); // # 2122
     count_days_spent_together::Solution().test(); // # 2409
+    maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
 
     return 0;
 }
