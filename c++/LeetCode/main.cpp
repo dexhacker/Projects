@@ -252,6 +252,7 @@
 #include "src/divisor_game/Solution.h"
 #include "src/multiply_strings/Solution.h"
 #include "src/wildcard_matching/Solution.h"
+#include "src/count_days_spent_together/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -508,6 +509,7 @@ int main() {
     minimum_cost_to_reach_destination_in_time::Solution().test(); // # 1928
     find_original_array_from_doubled_array::Solution().test(); // # 2007
     recover_the_original_array::Solution().test(); // # 2122
+    count_days_spent_together::Solution().test(); // # 2409
 
     return 0;
 }
