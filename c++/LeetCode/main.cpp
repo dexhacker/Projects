@@ -254,6 +254,7 @@
 #include "src/wildcard_matching/Solution.h"
 #include "src/count_days_spent_together/Solution.h"
 #include "src/maximum_matching_of_players_with_trainers/Solution.h"
+#include "src/find_duplicate_file_in_system/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -426,6 +427,7 @@ int main() {
     out_of_boundary_paths::Solution().test(); // # 576
     non_negative_integers_without_consecutive_ones::Solution().test(); // # 600
     can_place_flowers::Solution().test(); // # 605
+    find_duplicate_file_in_system::Solution().test(); // # 609
     valid_triangle_number::Solution().test(); // # 611
     task_scheduler::Solution().test(); // # 621
     k_inverse_pairs_array::Solution().test(); // # 629
