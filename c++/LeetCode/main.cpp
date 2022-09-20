@@ -255,6 +255,7 @@
 #include "src/count_days_spent_together/Solution.h"
 #include "src/maximum_matching_of_players_with_trainers/Solution.h"
 #include "src/find_duplicate_file_in_system/Solution.h"
+#include "src/jump_game_ii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -301,6 +302,7 @@ int main() {
     trapping_rain_water::Solution().test(); // # 42
     multiply_strings::Solution().test(); // # 43
     wildcard_matching::Solution().test(); // # 44
+    jump_game_ii::Solution().test(); // # 45
     permutations::Solution().test(); // # 46
     powx_n::Solution().test(); // # 50
     n_queens::Solution().test(); // # 51
