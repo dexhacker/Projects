@@ -256,6 +256,7 @@
 #include "src/maximum_matching_of_players_with_trainers/Solution.h"
 #include "src/find_duplicate_file_in_system/Solution.h"
 #include "src/jump_game_ii/Solution.h"
+#include "src/sum_of_even_numbers_after_queries/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -471,6 +472,7 @@ int main() {
     range_sum_of_bst::Solution().test(); // # 938
     bag_of_tokens::Solution().test(); // # 938
     k_closest_points_to_origin::Solution().test(); // # 973
+    sum_of_even_numbers_after_queries::Solution().test(); // # 985
     find_the_town_judge::Solution().test(); // # 997
     max_consecutive_ones_iii::Solution().test(); // # 1004
     complement_of_base_10_integer::Solution().test(); // # 1009
