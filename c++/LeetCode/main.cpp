@@ -257,6 +257,7 @@
 #include "src/find_duplicate_file_in_system/Solution.h"
 #include "src/jump_game_ii/Solution.h"
 #include "src/sum_of_even_numbers_after_queries/Solution.h"
+#include "src/reverse_words_in_a_string_iii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -424,6 +425,7 @@ int main() {
     k_th_symbol_in_grammar::Solution().test(); // # 746
     complex_number_multiplication::Solution().test(); // # 537
     number_of_provinces::Solution().test(); // # 547
+    reverse_words_in_a_string_iii::Solution().test(); // # 557
     maximum_depth_of_n_ary_tree::Solution().test(); // # 559
     reshape_the_matrix::Solution().test(); // # 566
     permutation_in_string::Solution().test(); // # 567
