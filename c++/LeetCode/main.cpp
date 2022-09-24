@@ -258,6 +258,8 @@
 #include "src/jump_game_ii/Solution.h"
 #include "src/sum_of_even_numbers_after_queries/Solution.h"
 #include "src/reverse_words_in_a_string_iii/Solution.h"
+#include "src/concatenation_of_consecutive_binary_numbers/Solution.h"
+#include "src/path_sum_ii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -331,6 +333,7 @@ int main() {
     convert_sorted_array_to_binary_search_tree::Solution().test(); // # 108
     convert_sorted_list_to_binary_search_tree::Solution().test(); // # 109
     path_sum::Solution().test(); // # 112
+    path_sum_ii::Solution().test(); // # 113
     populating_next_right_pointers_in_each_node::Solution().test(); // # 116
     pascals_triangle::Solution().test(); // # 118
     best_time_to_buy_and_sell_stock::Solution().test(); // # 121
@@ -504,8 +507,9 @@ int main() {
     maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts::Solution().test(); // # 1465
     the_kth_factor_of_n::Solution().test(); // # 1492
     path_with_maximum_probability::Solution().test(); // # 1514
-    jump_game_vi::Solution().test(); // # 1696
+    concatenation_of_consecutive_binary_numbers::Solution().test(); // # 1680
     stone_game_vii::Solution().test(); // # 1690
+    jump_game_vi::Solution().test(); // # 1696
     maximum_units_on_a_truck::Solution().test(); // # 1710
     maximum_score_from_performing_multiplication_operations::Solution().test(); // # 1770
     determine_whether_matrix_can_be_obtained_by_rotation::Solution().test(); // # 1886
