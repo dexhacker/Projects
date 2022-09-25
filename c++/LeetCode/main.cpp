@@ -260,6 +260,7 @@
 #include "src/reverse_words_in_a_string_iii/Solution.h"
 #include "src/concatenation_of_consecutive_binary_numbers/Solution.h"
 #include "src/path_sum_ii/Solution.h"
+#include "src/design_circular_queue/MyCircularQueue.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -438,6 +439,7 @@ int main() {
     find_duplicate_file_in_system::Solution().test(); // # 609
     valid_triangle_number::Solution().test(); // # 611
     task_scheduler::Solution().test(); // # 621
+    design_circular_queue::MyCircularQueue::test(); // # 622
     k_inverse_pairs_array::Solution().test(); // # 629
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
     decode_ways_ii::Solution().test(); // # 639
