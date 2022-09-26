@@ -261,6 +261,7 @@
 #include "src/concatenation_of_consecutive_binary_numbers/Solution.h"
 #include "src/path_sum_ii/Solution.h"
 #include "src/design_circular_queue/MyCircularQueue.h"
+#include "src/satisfiability_of_equality_equations/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -480,6 +481,7 @@ int main() {
     bag_of_tokens::Solution().test(); // # 938
     k_closest_points_to_origin::Solution().test(); // # 973
     sum_of_even_numbers_after_queries::Solution().test(); // # 985
+    satisfiability_of_equality_equations::Solution().test(); // # 990
     find_the_town_judge::Solution().test(); // # 997
     max_consecutive_ones_iii::Solution().test(); // # 1004
     complement_of_base_10_integer::Solution().test(); // # 1009
