@@ -262,6 +262,7 @@
 #include "src/path_sum_ii/Solution.h"
 #include "src/design_circular_queue/MyCircularQueue.h"
 #include "src/satisfiability_of_equality_equations/Solution.h"
+#include "src/the_skyline_problem/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -374,6 +375,7 @@ int main() {
     course_schedule_ii::Solution().test(); // # 210
     combination_sum_iii::Solution().test(); // # 216
     contains_duplicate::Solution().test(); // # 217
+    the_skyline_problem::Solution().test(); // # 218
     maximal_square::Solution().test(); // # 221
     basic_calculator_ii::Solution().test(); // # 227
     kth_smallest_element_in_a_bst::Solution().test(); // # 230
