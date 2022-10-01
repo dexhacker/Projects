@@ -263,6 +263,7 @@
 #include "src/design_circular_queue/MyCircularQueue.h"
 #include "src/satisfiability_of_equality_equations/Solution.h"
 #include "src/the_skyline_problem/Solution.h"
+#include "src/decode_ways/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -323,6 +324,7 @@ int main() {
     subsets::Solution().test(); // # 78
     word_search::Solution().test(); // # 79
     gray_code::Solution().test(); // # 89
+    decode_ways::Solution().test(); // # 91
     reverse_linked_list_ii::Solution().test(); // # 92
     binary_tree_inorder_traversal::Solution().test(); // # 94
     interleaving_string::Solution().test(); // # 97
