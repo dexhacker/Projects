@@ -264,6 +264,7 @@
 #include "src/satisfiability_of_equality_equations/Solution.h"
 #include "src/the_skyline_problem/Solution.h"
 #include "src/decode_ways/Solution.h"
+#include "src/number_of_dice_rolls_with_target_sum/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -498,6 +499,7 @@ int main() {
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
     distribute_candies_to_people::Solution().test(); // # 1103
     n_th_tribonacci_number::Solution().test(); // # 1137
+    number_of_dice_rolls_with_target_sum::Solution().test(); // # 1155
     prime_arrangements::Solution().test(); // # 1175
     can_make_palindrome_from_substring::Solution().test(); // # 1177
     minimum_absolute_difference::Solution().test(); // # 1200
