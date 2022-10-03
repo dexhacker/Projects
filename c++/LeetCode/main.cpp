@@ -265,6 +265,7 @@
 #include "src/the_skyline_problem/Solution.h"
 #include "src/decode_ways/Solution.h"
 #include "src/number_of_dice_rolls_with_target_sum/Solution.h"
+#include "src/minimum_time_to_make_rope_colorful/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -517,6 +518,7 @@ int main() {
     maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts::Solution().test(); // # 1465
     the_kth_factor_of_n::Solution().test(); // # 1492
     path_with_maximum_probability::Solution().test(); // # 1514
+    minimum_time_to_make_rope_colorful::Solution().test(); // # 1578
     concatenation_of_consecutive_binary_numbers::Solution().test(); // # 1680
     stone_game_vii::Solution().test(); // # 1690
     jump_game_vi::Solution().test(); // # 1696
