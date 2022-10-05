@@ -266,6 +266,7 @@
 #include "src/decode_ways/Solution.h"
 #include "src/number_of_dice_rolls_with_target_sum/Solution.h"
 #include "src/minimum_time_to_make_rope_colorful/Solution.h"
+#include "src/add_one_row_to_tree/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -447,6 +448,7 @@ int main() {
     valid_triangle_number::Solution().test(); // # 611
     task_scheduler::Solution().test(); // # 621
     design_circular_queue::MyCircularQueue::test(); // # 622
+    add_one_row_to_tree::Solution().test(); // # 623
     k_inverse_pairs_array::Solution().test(); // # 629
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
     decode_ways_ii::Solution().test(); // # 639
