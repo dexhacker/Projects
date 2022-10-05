@@ -267,6 +267,7 @@
 #include "src/number_of_dice_rolls_with_target_sum/Solution.h"
 #include "src/minimum_time_to_make_rope_colorful/Solution.h"
 #include "src/add_one_row_to_tree/Solution.h"
+#include "src/permutations_ii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -315,6 +316,7 @@ int main() {
     wildcard_matching::Solution().test(); // # 44
     jump_game_ii::Solution().test(); // # 45
     permutations::Solution().test(); // # 46
+    permutations_ii::Solution().test(); // # 47
     powx_n::Solution().test(); // # 50
     n_queens::Solution().test(); // # 51
     maximum_subarray::Solution().test(); // # 53
