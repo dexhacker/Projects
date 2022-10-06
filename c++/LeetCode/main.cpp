@@ -268,6 +268,7 @@
 #include "src/minimum_time_to_make_rope_colorful/Solution.h"
 #include "src/add_one_row_to_tree/Solution.h"
 #include "src/permutations_ii/Solution.h"
+#include "src/time_based_key_value_store/TimeMap.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -490,6 +491,7 @@ int main() {
     range_sum_of_bst::Solution().test(); // # 938
     bag_of_tokens::Solution().test(); // # 938
     k_closest_points_to_origin::Solution().test(); // # 973
+    time_based_key_value_store::TimeMap::test(); // # 981
     sum_of_even_numbers_after_queries::Solution().test(); // # 985
     satisfiability_of_equality_equations::Solution().test(); // # 990
     find_the_town_judge::Solution().test(); // # 997
