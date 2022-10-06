@@ -13,7 +13,7 @@ using namespace std;
 namespace permutations_ii {
     class Solution {
     public:
-        void reс(vector<int>& nums, vector<int> permutation, bool used[8]);
+        void reс(vector<int>& nums, vector<int> permutation, vector<bool> &used);
         vector<vector<int>> permuteUnique(vector<int>& nums);
         void test();
 

@@ -5,7 +5,7 @@
 #include "Solution.h"
 #include <cassert>
 
-void permutations_ii::Solution::reс(vector<int> &nums, vector<int> permutation, bool *used) {
+void permutations_ii::Solution::reс(vector<int> &nums, vector<int> permutation, vector<bool> &used) {
     if (permutation.size() == nums.size()) {
         answer.push_back(permutation);
         return;
@@ -24,7 +24,7 @@ void permutations_ii::Solution::reс(vector<int> &nums, vector<int> permutation,
 
 vector<vector<int>> permutations_ii::Solution::permuteUnique(vector<int> &nums) {
     vector<int> permutation;
-    bool used [8];
+    vector<bool> used(8, false);
 
     reс(nums, permutation, used);
 
@@ -36,9 +36,10 @@ vector<vector<int>> permutations_ii::Solution::permuteUnique(vector<int> &nums) 
 
 void permutations_ii::Solution::test() {
     vector<int> test {1, 1, 2};
-    vector<vector<int>> answer {{1, 1, 2}, {1, 2, 1}, {2, 1, 1}};
+    vector<vector<int>> test_answer {{1, 1, 2}, {1, 2, 1}, {2, 1, 1}};
     auto result = permuteUnique(test);
-    for (int i = 0; i < answer.size(); i++) assert(answer[i] == result[i]);
+    cout << test_answer.size() << " " << result.size() << endl;
+    for (int i = 0; i < test_answer.size(); i++) assert(test_answer[i] == result[i]);
 
     cout << "permuteUnique completed!" << endl;
 }
