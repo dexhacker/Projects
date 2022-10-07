@@ -269,6 +269,7 @@
 #include "src/add_one_row_to_tree/Solution.h"
 #include "src/permutations_ii/Solution.h"
 #include "src/time_based_key_value_store/TimeMap.h"
+#include "src/my_calendar_iii/MyCalendarThree.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -465,6 +466,7 @@ int main() {
     best_time_to_buy_and_sell_stock_with_transaction_fee::Solution().test(); // # 714
     maximum_length_of_repeated_subarray::Solution().test(); // # 718
     my_calendar_i::MyCalendar::test(); // # 729
+    my_calendar_iii::MyCalendarThree::test(); // # 732
     network_delay_time::Solution().test(); // # 743
     prefix_and_suffix_search::WordFilter::test(); // # 745
     min_cost_climbing_stairs::Solution().test(); // # 746
