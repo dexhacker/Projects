@@ -270,6 +270,7 @@
 #include "src/permutations_ii/Solution.h"
 #include "src/time_based_key_value_store/TimeMap.h"
 #include "src/my_calendar_iii/MyCalendarThree.h"
+#include "src/two_sum_iv_input_is_a_bst/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -456,6 +457,7 @@ int main() {
     k_inverse_pairs_array::Solution().test(); // # 629
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
     decode_ways_ii::Solution().test(); // # 639
+    two_sum_iv_input_is_a_bst::Solution().test(); // # 653
     longest_continuous_increasing_subsequence::Solution().test(); // # 674
     redundant_connection::Solution().test(); // # 684
     max_area_of_island::Solution().test(); // # 695
