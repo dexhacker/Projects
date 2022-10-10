@@ -271,6 +271,7 @@
 #include "src/time_based_key_value_store/TimeMap.h"
 #include "src/my_calendar_iii/MyCalendarThree.h"
 #include "src/two_sum_iv_input_is_a_bst/Solution.h"
+#include "src/break_a_palindrome/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -517,6 +518,7 @@ int main() {
     count_vowels_permutation::Solution().test(); // # 1220
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     count_number_of_nice_subarrays::Solution().test(); // # 1248
+    break_a_palindrome::Solution().test(); // # 1328
     reduce_array_size_to_the_half::Solution().test(); // # 1338
     closest_divisors::Solution().test(); // # 1362
     maximum_performance_of_a_team::Solution().test(); // # 1383
