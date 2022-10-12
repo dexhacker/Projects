@@ -273,6 +273,7 @@
 #include "src/two_sum_iv_input_is_a_bst/Solution.h"
 #include "src/break_a_palindrome/Solution.h"
 #include "src/increasing_triplet_subsequence/Solution.h"
+#include "src/largest_perimeter_triangle/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -498,6 +499,7 @@ int main() {
     range_sum_of_bst::Solution().test(); // # 938
     bag_of_tokens::Solution().test(); // # 938
     k_closest_points_to_origin::Solution().test(); // # 973
+    largest_perimeter_triangle::Solution().test(); // # 976
     time_based_key_value_store::TimeMap::test(); // # 981
     sum_of_even_numbers_after_queries::Solution().test(); // # 985
     satisfiability_of_equality_equations::Solution().test(); // # 990
