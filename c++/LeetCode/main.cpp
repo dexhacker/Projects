@@ -275,6 +275,7 @@
 #include "src/increasing_triplet_subsequence/Solution.h"
 #include "src/largest_perimeter_triangle/Solution.h"
 #include "src/rotate_image/Solution.h"
+#include "src/group_anagrams/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -325,6 +326,7 @@ int main() {
     permutations::Solution().test(); // # 46
     permutations_ii::Solution().test(); // # 47
     rotate_image::Solution().test(); // # 48
+    group_anagrams::Solution().test(); // # 49
     powx_n::Solution().test(); // # 50
     n_queens::Solution().test(); // # 51
     maximum_subarray::Solution().test(); // # 53
