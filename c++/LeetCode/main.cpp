@@ -276,6 +276,7 @@
 #include "src/largest_perimeter_triangle/Solution.h"
 #include "src/rotate_image/Solution.h"
 #include "src/group_anagrams/Solution.h"
+#include "src/delete_the_middle_node_of_a_linked_list/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -553,6 +554,7 @@ int main() {
     sum_game::Solution().test(); // # 1927
     minimum_cost_to_reach_destination_in_time::Solution().test(); // # 1928
     find_original_array_from_doubled_array::Solution().test(); // # 2007
+    delete_the_middle_node_of_a_linked_list::Solution().test(); // # 2095
     recover_the_original_array::Solution().test(); // # 2122
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
