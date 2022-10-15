@@ -277,6 +277,7 @@
 #include "src/rotate_image/Solution.h"
 #include "src/group_anagrams/Solution.h"
 #include "src/delete_the_middle_node_of_a_linked_list/Solution.h"
+#include "src/string_compression_ii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -539,6 +540,7 @@ int main() {
     maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts::Solution().test(); // # 1465
     the_kth_factor_of_n::Solution().test(); // # 1492
     path_with_maximum_probability::Solution().test(); // # 1514
+    string_compression_ii::Solution().test(); // # 1531
     minimum_time_to_make_rope_colorful::Solution().test(); // # 1578
     concatenation_of_consecutive_binary_numbers::Solution().test(); // # 1680
     stone_game_vii::Solution().test(); // # 1690
