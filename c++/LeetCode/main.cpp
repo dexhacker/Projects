@@ -278,6 +278,7 @@
 #include "src/group_anagrams/Solution.h"
 #include "src/delete_the_middle_node_of_a_linked_list/Solution.h"
 #include "src/string_compression_ii/Solution.h"
+#include "src/minimum_difficulty_of_a_job_schedule/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -529,6 +530,7 @@ int main() {
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     count_number_of_nice_subarrays::Solution().test(); // # 1248
     break_a_palindrome::Solution().test(); // # 1328
+    minimum_difficulty_of_a_job_schedule::Solution().test(); // # 1335
     reduce_array_size_to_the_half::Solution().test(); // # 1338
     closest_divisors::Solution().test(); // # 1362
     maximum_performance_of_a_team::Solution().test(); // # 1383
