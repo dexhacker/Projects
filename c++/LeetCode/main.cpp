@@ -279,6 +279,8 @@
 #include "src/delete_the_middle_node_of_a_linked_list/Solution.h"
 #include "src/string_compression_ii/Solution.h"
 #include "src/minimum_difficulty_of_a_job_schedule/Solution.h"
+#include "src/check_if_the_sentence_is_pangram/Solution.h"
+#include "src/top_k_frequent_words/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -471,6 +473,7 @@ int main() {
     two_sum_iv_input_is_a_bst::Solution().test(); // # 653
     longest_continuous_increasing_subsequence::Solution().test(); // # 674
     redundant_connection::Solution().test(); // # 684
+    top_k_frequent_words::Solution().test(); // # 692
     max_area_of_island::Solution().test(); // # 695
     partition_to_k_equal_sum_subsets::Solution().test(); // # 698
     insert_into_a_binary_search_tree::Solution().test(); // # 701
@@ -549,6 +552,7 @@ int main() {
     jump_game_vi::Solution().test(); // # 1696
     maximum_units_on_a_truck::Solution().test(); // # 1710
     maximum_score_from_performing_multiplication_operations::Solution().test(); // # 1770
+    check_if_the_sentence_is_pangram::Solution().test(); // # 1832
     determine_whether_matrix_can_be_obtained_by_rotation::Solution().test(); // # 1886
     reduction_operations_to_make_the_array_elements_equal::Solution().test(); // # 1887
     minimum_number_of_flips_to_make_the_binary_string_alternating::Solution().test(); // # 1888
