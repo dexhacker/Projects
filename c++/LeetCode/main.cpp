@@ -281,6 +281,7 @@
 #include "src/minimum_difficulty_of_a_job_schedule/Solution.h"
 #include "src/check_if_the_sentence_is_pangram/Solution.h"
 #include "src/top_k_frequent_words/Solution.h"
+#include "src/contains_duplicate_ii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -398,6 +399,7 @@ int main() {
     combination_sum_iii::Solution().test(); // # 216
     contains_duplicate::Solution().test(); // # 217
     the_skyline_problem::Solution().test(); // # 218
+    contains_duplicate_ii::Solution().test(); // # 219
     maximal_square::Solution().test(); // # 221
     basic_calculator_ii::Solution().test(); // # 227
     kth_smallest_element_in_a_bst::Solution().test(); // # 230
