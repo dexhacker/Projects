@@ -282,6 +282,8 @@
 #include "src/check_if_the_sentence_is_pangram/Solution.h"
 #include "src/top_k_frequent_words/Solution.h"
 #include "src/contains_duplicate_ii/Solution.h"
+#include "src/maximum_length_of_a_concatenated_string_with_unique_characters/Solution.h"
+#include "src/set_mismatch/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -472,6 +474,7 @@ int main() {
     k_inverse_pairs_array::Solution().test(); // # 629
     smallest_range_covering_elements_from_k_lists::Solution().test(); // # 632
     decode_ways_ii::Solution().test(); // # 639
+    set_mismatch::Solution().test(); // # 645
     two_sum_iv_input_is_a_bst::Solution().test(); // # 653
     longest_continuous_increasing_subsequence::Solution().test(); // # 674
     redundant_connection::Solution().test(); // # 684
@@ -533,6 +536,7 @@ int main() {
     minimum_absolute_difference::Solution().test(); // # 1200
     count_vowels_permutation::Solution().test(); // # 1220
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
+    maximum_length_of_a_concatenated_string_with_unique_characters::Solution().test(); // # 1239
     count_number_of_nice_subarrays::Solution().test(); // # 1248
     break_a_palindrome::Solution().test(); // # 1328
     minimum_difficulty_of_a_job_schedule::Solution().test(); // # 1335
