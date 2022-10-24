@@ -285,6 +285,7 @@
 #include "src/maximum_length_of_a_concatenated_string_with_unique_characters/Solution.h"
 #include "src/set_mismatch/Solution.h"
 #include "src/n_queens_ii/Solution.h"
+#include "src/spiral_matrix/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -340,6 +341,7 @@ int main() {
     n_queens::Solution().test(); // # 51
     n_queens_ii::Solution().test(); // # 52
     maximum_subarray::Solution().test(); // # 53
+    spiral_matrix::Solution().test(); // # 54
     jump_game::Solution().test(); // # 55
     merge_intervals::Solution().test(); // # 56
     rotate_list::Solution().test(); // # 61
