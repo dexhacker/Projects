@@ -284,6 +284,7 @@
 #include "src/contains_duplicate_ii/Solution.h"
 #include "src/maximum_length_of_a_concatenated_string_with_unique_characters/Solution.h"
 #include "src/set_mismatch/Solution.h"
+#include "src/n_queens_ii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -337,6 +338,7 @@ int main() {
     group_anagrams::Solution().test(); // # 49
     powx_n::Solution().test(); // # 50
     n_queens::Solution().test(); // # 51
+    n_queens_ii::Solution().test(); // # 52
     maximum_subarray::Solution().test(); // # 53
     jump_game::Solution().test(); // # 55
     merge_intervals::Solution().test(); // # 56
