@@ -286,6 +286,7 @@
 #include "src/set_mismatch/Solution.h"
 #include "src/n_queens_ii/Solution.h"
 #include "src/spiral_matrix/Solution.h"
+#include "src/check_if_two_string_arrays_are_equivalent/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -557,6 +558,7 @@ int main() {
     path_with_maximum_probability::Solution().test(); // # 1514
     string_compression_ii::Solution().test(); // # 1531
     minimum_time_to_make_rope_colorful::Solution().test(); // # 1578
+    check_if_two_string_arrays_are_equivalent::Solution().test(); // # 1662
     concatenation_of_consecutive_binary_numbers::Solution().test(); // # 1680
     stone_game_vii::Solution().test(); // # 1690
     jump_game_vi::Solution().test(); // # 1696
