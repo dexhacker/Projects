@@ -287,6 +287,7 @@
 #include "src/n_queens_ii/Solution.h"
 #include "src/spiral_matrix/Solution.h"
 #include "src/check_if_two_string_arrays_are_equivalent/Solution.h"
+#include "src/continuous_subarray_sum/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -460,6 +461,7 @@ int main() {
     ones_and_zeroes::Solution().test(); // # 474
     number_complement::Solution().test(); // # 476
     fibonacci_number::Solution().test(); // # 509
+    continuous_subarray_sum::Solution().test(); // # 523
     find_k_closest_elements::Solution().test(); // # 658
     k_th_symbol_in_grammar::Solution().test(); // # 746
     complex_number_multiplication::Solution().test(); // # 537
