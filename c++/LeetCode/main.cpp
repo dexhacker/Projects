@@ -288,6 +288,10 @@
 #include "src/spiral_matrix/Solution.h"
 #include "src/check_if_two_string_arrays_are_equivalent/Solution.h"
 #include "src/continuous_subarray_sum/Solution.h"
+#include "src/image_overlap/Solution.h"
+#include "src/toeplitz_matrix/Solution.h"
+#include "src/earliest_possible_day_of_full_bloom/Solution.h"
+#include "src/shortest_path_in_a_grid_with_obstacles_elimination/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -500,6 +504,7 @@ int main() {
     min_cost_climbing_stairs::Solution().test(); // # 746
     open_the_lock::Solution().test(); // # 752
     prime_number_of_set_bits_in_binary_representation::Solution().test(); // # 762
+    toeplitz_matrix::Solution().test(); // # 766
     swim_in_rising_water::Solution().test(); // # 778
     custom_sort_string::Solution().test(); // # 791
     number_of_matching_subsequences::Solution().test(); // # 792
@@ -507,6 +512,7 @@ int main() {
     number_of_subarrays_with_bounded_maximum::Solution().test(); // # 795
     binary_tree_pruning::Solution().test(); // # 814
     flipping_an_image::Solution().test(); // # 832
+    image_overlap::Solution().test(); // # 835
     push_dominoes::Solution().test(); // # 838
     score_of_parentheses::Solution().test(); // # 856
     smallest_subtree_with_all_the_deepest_nodes::Solution().test(); // # 865
@@ -545,6 +551,7 @@ int main() {
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     maximum_length_of_a_concatenated_string_with_unique_characters::Solution().test(); // # 1239
     count_number_of_nice_subarrays::Solution().test(); // # 1248
+    shortest_path_in_a_grid_with_obstacles_elimination::Solution().test(); // # 1293
     break_a_palindrome::Solution().test(); // # 1328
     minimum_difficulty_of_a_job_schedule::Solution().test(); // # 1335
     reduce_array_size_to_the_half::Solution().test(); // # 1338
@@ -578,6 +585,7 @@ int main() {
     find_original_array_from_doubled_array::Solution().test(); // # 2007
     delete_the_middle_node_of_a_linked_list::Solution().test(); // # 2095
     recover_the_original_array::Solution().test(); // # 2122
+    earliest_possible_day_of_full_bloom::Solution().test(); // # 2136
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
 
