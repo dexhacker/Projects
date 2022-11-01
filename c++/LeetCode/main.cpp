@@ -292,6 +292,7 @@
 #include "src/toeplitz_matrix/Solution.h"
 #include "src/earliest_possible_day_of_full_bloom/Solution.h"
 #include "src/shortest_path_in_a_grid_with_obstacles_elimination/Solution.h"
+#include "src/where_will_the_ball_fall/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -571,6 +572,7 @@ int main() {
     concatenation_of_consecutive_binary_numbers::Solution().test(); // # 1680
     stone_game_vii::Solution().test(); // # 1690
     jump_game_vi::Solution().test(); // # 1696
+    where_will_the_ball_fall::Solution().test(); // # 1706
     maximum_units_on_a_truck::Solution().test(); // # 1710
     maximum_score_from_performing_multiplication_operations::Solution().test(); // # 1770
     check_if_the_sentence_is_pangram::Solution().test(); // # 1832
