@@ -293,6 +293,7 @@
 #include "src/earliest_possible_day_of_full_bloom/Solution.h"
 #include "src/shortest_path_in_a_grid_with_obstacles_elimination/Solution.h"
 #include "src/where_will_the_ball_fall/Solution.h"
+#include "src/minimum_genetic_mutation/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -455,6 +456,7 @@ int main() {
     remove_k_digits::Solution().test(); // # 402
     third_maximum_number::Solution().test(); // # 414
     n_ary_tree_level_order_traversal::Solution().test(); // # 429
+    minimum_genetic_mutation::Solution().test(); // # 433
     find_all_anagrams_in_a_string::Solution().test(); // # 438
     arranging_coins::Solution().test(); // # 441
     find_all_numbers_disappeared_in_an_array::Solution().test(); // # 448
