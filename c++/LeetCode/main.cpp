@@ -294,6 +294,7 @@
 #include "src/shortest_path_in_a_grid_with_obstacles_elimination/Solution.h"
 #include "src/where_will_the_ball_fall/Solution.h"
 #include "src/minimum_genetic_mutation/Solution.h"
+#include "src/longest_palindrome_by_concatenating_two_letter_words/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -589,6 +590,7 @@ int main() {
     find_original_array_from_doubled_array::Solution().test(); // # 2007
     delete_the_middle_node_of_a_linked_list::Solution().test(); // # 2095
     recover_the_original_array::Solution().test(); // # 2122
+    longest_palindrome_by_concatenating_two_letter_words::Solution().test(); // # 2131
     earliest_possible_day_of_full_bloom::Solution().test(); // # 2136
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
