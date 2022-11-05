@@ -295,6 +295,7 @@
 #include "src/where_will_the_ball_fall/Solution.h"
 #include "src/minimum_genetic_mutation/Solution.h"
 #include "src/longest_palindrome_by_concatenating_two_letter_words/Solution.h"
+#include "src/word_search_ii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -411,6 +412,7 @@ int main() {
     course_schedule::Solution().test(); // # 207
     minimum_size_subarray_sum::Solution().test(); // # 209
     course_schedule_ii::Solution().test(); // # 210
+    word_search_ii::Solution().test(); // # 212
     combination_sum_iii::Solution().test(); // # 216
     contains_duplicate::Solution().test(); // # 217
     the_skyline_problem::Solution().test(); // # 218
