@@ -296,6 +296,7 @@
 #include "src/minimum_genetic_mutation/Solution.h"
 #include "src/longest_palindrome_by_concatenating_two_letter_words/Solution.h"
 #include "src/word_search_ii/Solution.h"
+#include "src/orderly_queue/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -525,6 +526,7 @@ int main() {
     minimum_number_of_refueling_stops::Solution().test(); // # 871
     middle_of_the_linked_list::Solution().test(); // # 876
     stone_game::Solution().test(); // # 877
+    orderly_queue::Solution().test(); // # 899
     numbers_at_most_n_given_digit_set::Solution().test(); // # 902
     partition_array_into_disjoint_intervals::Solution().test(); // # 915
     flip_string_to_monotone_increasing::Solution().test(); // # 926
