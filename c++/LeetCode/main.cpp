@@ -297,6 +297,7 @@
 #include "src/longest_palindrome_by_concatenating_two_letter_words/Solution.h"
 #include "src/word_search_ii/Solution.h"
 #include "src/orderly_queue/Solution.h"
+#include "src/maximum_69_number/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -560,6 +561,7 @@ int main() {
     maximum_length_of_a_concatenated_string_with_unique_characters::Solution().test(); // # 1239
     count_number_of_nice_subarrays::Solution().test(); // # 1248
     shortest_path_in_a_grid_with_obstacles_elimination::Solution().test(); // # 1293
+    maximum_69_number::Solution().test(); // # 1323
     break_a_palindrome::Solution().test(); // # 1328
     minimum_difficulty_of_a_job_schedule::Solution().test(); // # 1335
     reduce_array_size_to_the_half::Solution().test(); // # 1338
