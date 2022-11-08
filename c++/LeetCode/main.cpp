@@ -298,6 +298,7 @@
 #include "src/word_search_ii/Solution.h"
 #include "src/orderly_queue/Solution.h"
 #include "src/maximum_69_number/Solution.h"
+#include "src/make_the_string_great/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -576,6 +577,7 @@ int main() {
     the_kth_factor_of_n::Solution().test(); // # 1492
     path_with_maximum_probability::Solution().test(); // # 1514
     string_compression_ii::Solution().test(); // # 1531
+    make_the_string_great::Solution().test(); // # 1544
     minimum_time_to_make_rope_colorful::Solution().test(); // # 1578
     check_if_two_string_arrays_are_equivalent::Solution().test(); // # 1662
     concatenation_of_consecutive_binary_numbers::Solution().test(); // # 1680
