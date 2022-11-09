@@ -299,6 +299,7 @@
 #include "src/orderly_queue/Solution.h"
 #include "src/maximum_69_number/Solution.h"
 #include "src/make_the_string_great/Solution.h"
+#include "src/online_stock_span/StockSpanner.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -529,6 +530,7 @@ int main() {
     middle_of_the_linked_list::Solution().test(); // # 876
     stone_game::Solution().test(); // # 877
     orderly_queue::Solution().test(); // # 899
+    online_stock_span::StockSpanner::test(); // # 901
     numbers_at_most_n_given_digit_set::Solution().test(); // # 902
     partition_array_into_disjoint_intervals::Solution().test(); // # 915
     flip_string_to_monotone_increasing::Solution().test(); // # 926
