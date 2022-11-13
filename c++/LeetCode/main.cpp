@@ -300,6 +300,7 @@
 #include "src/maximum_69_number/Solution.h"
 #include "src/make_the_string_great/Solution.h"
 #include "src/online_stock_span/StockSpanner.h"
+#include "src/reverse_words_in_a_string/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -399,6 +400,7 @@ int main() {
     binary_tree_preorder_traversal::Solution().test(); // # 144
     binary_tree_postorder_traversal::Solution().test(); // # 145
     insertion_sort_list::Solution().test(); // # 147
+    reverse_words_in_a_string::Solution().test(); // # 151
     find_minimum_in_rotated_sorted_array::Solution().test(); // # 153
     min_stack::MinStack::test(); // # 155
     find_peak_element::Solution().test(); // # 162
