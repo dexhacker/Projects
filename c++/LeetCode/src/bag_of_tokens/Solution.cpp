@@ -14,7 +14,6 @@ int bag_of_tokens::Solution::bagOfTokensScore(vector<int> &tokens, int power) {
     sort(tokens.begin(), tokens.end());
 
     while (l <= r) {
-        cout << power << endl;
         if (power >= tokens[l]) {
             power -= tokens[l];
             score++;

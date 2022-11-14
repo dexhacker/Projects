@@ -301,6 +301,7 @@
 #include "src/make_the_string_great/Solution.h"
 #include "src/online_stock_span/StockSpanner.h"
 #include "src/reverse_words_in_a_string/Solution.h"
+#include "src/most_stones_removed_with_same_row_or_column/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -540,6 +541,7 @@ int main() {
     number_of_recent_calls::RecentCounter::test(); // # 933
     range_sum_of_bst::Solution().test(); // # 938
     bag_of_tokens::Solution().test(); // # 938
+    most_stones_removed_with_same_row_or_column::Solution().test(); // # 947
     k_closest_points_to_origin::Solution().test(); // # 973
     largest_perimeter_triangle::Solution().test(); // # 976
     time_based_key_value_store::TimeMap::test(); // # 981
