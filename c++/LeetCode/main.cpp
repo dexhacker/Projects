@@ -302,6 +302,7 @@
 #include "src/online_stock_span/StockSpanner.h"
 #include "src/reverse_words_in_a_string/Solution.h"
 #include "src/most_stones_removed_with_same_row_or_column/Solution.h"
+#include "src/count_complete_tree_nodes/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -425,6 +426,7 @@ int main() {
     the_skyline_problem::Solution().test(); // # 218
     contains_duplicate_ii::Solution().test(); // # 219
     maximal_square::Solution().test(); // # 221
+    count_complete_tree_nodes::Solution().test(); // # 222
     basic_calculator_ii::Solution().test(); // # 227
     kth_smallest_element_in_a_bst::Solution().test(); // # 230
     power_of_two::Solution().test(); // # 231
