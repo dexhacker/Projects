@@ -303,6 +303,7 @@
 #include "src/reverse_words_in_a_string/Solution.h"
 #include "src/most_stones_removed_with_same_row_or_column/Solution.h"
 #include "src/count_complete_tree_nodes/Solution.h"
+#include "src/guess_number_higher_or_lower/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -458,6 +459,7 @@ int main() {
     top_k_frequent_elements::Solution().test(); // # 347
     intersection_of_two_arrays_ii::Solution().test(); // # 350
     sum_of_two_integers::Solution().test(); // # 371
+    guess_number_higher_or_lower::Solution().test(); // # 374
     kth_smallest_element_in_a_sorted_matrix::Solution().test(); // # 378
     insert_delete_getrandom_o1::RandomizedSet::test(); // # 380
     insert_delete_getrandom_o1_duplicates_allowed::RandomizedCollection::test(); // # 381
