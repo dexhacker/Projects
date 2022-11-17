@@ -305,6 +305,7 @@
 #include "src/count_complete_tree_nodes/Solution.h"
 #include "src/guess_number_higher_or_lower/Solution.h"
 #include "src/rectangle_area/Solution.h"
+#include "src/insert_interval/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -363,6 +364,7 @@ int main() {
     spiral_matrix::Solution().test(); // # 54
     jump_game::Solution().test(); // # 55
     merge_intervals::Solution().test(); // # 56
+    insert_interval::Solution().test(); // # 57
     rotate_list::Solution().test(); // # 61
     add_binary::Solution().test(); // # 67
     sqrtx::Solution().test(); // # 69
