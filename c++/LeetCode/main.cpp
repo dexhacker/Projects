@@ -308,6 +308,7 @@
 #include "src/insert_interval/Solution.h"
 #include "src/length_of_last_word/Solution.h"
 #include "src/spiral_matrix_ii/Solution.h"
+#include "src/permutation_sequence/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -369,6 +370,7 @@ int main() {
     insert_interval::Solution().test(); // # 57
     length_of_last_word::Solution().test(); // # 58
     spiral_matrix_ii::Solution().test(); // # 59
+    permutation_sequence::Solution().test(); // # 60
     rotate_list::Solution().test(); // # 61
     add_binary::Solution().test(); // # 67
     sqrtx::Solution().test(); // # 69
