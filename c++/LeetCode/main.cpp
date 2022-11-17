@@ -306,6 +306,7 @@
 #include "src/guess_number_higher_or_lower/Solution.h"
 #include "src/rectangle_area/Solution.h"
 #include "src/insert_interval/Solution.h"
+#include "src/length_of_last_word/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -365,6 +366,7 @@ int main() {
     jump_game::Solution().test(); // # 55
     merge_intervals::Solution().test(); // # 56
     insert_interval::Solution().test(); // # 57
+    length_of_last_word::Solution().test(); // # 58
     rotate_list::Solution().test(); // # 61
     add_binary::Solution().test(); // # 67
     sqrtx::Solution().test(); // # 69
