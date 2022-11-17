@@ -307,6 +307,7 @@
 #include "src/rectangle_area/Solution.h"
 #include "src/insert_interval/Solution.h"
 #include "src/length_of_last_word/Solution.h"
+#include "src/spiral_matrix_ii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -367,6 +368,7 @@ int main() {
     merge_intervals::Solution().test(); // # 56
     insert_interval::Solution().test(); // # 57
     length_of_last_word::Solution().test(); // # 58
+    spiral_matrix_ii::Solution().test(); // # 59
     rotate_list::Solution().test(); // # 61
     add_binary::Solution().test(); // # 67
     sqrtx::Solution().test(); // # 69
