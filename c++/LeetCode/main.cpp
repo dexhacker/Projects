@@ -304,6 +304,7 @@
 #include "src/most_stones_removed_with_same_row_or_column/Solution.h"
 #include "src/count_complete_tree_nodes/Solution.h"
 #include "src/guess_number_higher_or_lower/Solution.h"
+#include "src/rectangle_area/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -428,6 +429,7 @@ int main() {
     contains_duplicate_ii::Solution().test(); // # 219
     maximal_square::Solution().test(); // # 221
     count_complete_tree_nodes::Solution().test(); // # 222
+    rectangle_area::Solution().test(); // # 223
     basic_calculator_ii::Solution().test(); // # 227
     kth_smallest_element_in_a_bst::Solution().test(); // # 230
     power_of_two::Solution().test(); // # 231
