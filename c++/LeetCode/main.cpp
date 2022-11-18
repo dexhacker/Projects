@@ -309,6 +309,7 @@
 #include "src/length_of_last_word/Solution.h"
 #include "src/spiral_matrix_ii/Solution.h"
 #include "src/permutation_sequence/Solution.h"
+#include "src/ugly_number/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -447,6 +448,7 @@ int main() {
     delete_node_in_a_linked_list::Solution().test(); // # 237
     product_of_array_except_self::Solution().test(); // # 238
     search_a_2d_matrix_ii::Solution().test(); // # 240
+    ugly_number::Solution().test(); // # 263
     missing_number::Solution().test(); // # 268
     h_index_ii::Solution().test(); // # 275
     game_of_life::Solution().test(); // # 289
