@@ -310,6 +310,8 @@
 #include "src/spiral_matrix_ii/Solution.h"
 #include "src/permutation_sequence/Solution.h"
 #include "src/ugly_number/Solution.h"
+#include "src/erect_the_fence/Solution.h"
+#include "src/basic_calculator/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -439,6 +441,7 @@ int main() {
     maximal_square::Solution().test(); // # 221
     count_complete_tree_nodes::Solution().test(); // # 222
     rectangle_area::Solution().test(); // # 223
+    basic_calculator::Solution().test(); // # 224
     basic_calculator_ii::Solution().test(); // # 227
     kth_smallest_element_in_a_bst::Solution().test(); // # 230
     power_of_two::Solution().test(); // # 231
@@ -504,6 +507,7 @@ int main() {
     reshape_the_matrix::Solution().test(); // # 566
     permutation_in_string::Solution().test(); // # 567
     out_of_boundary_paths::Solution().test(); // # 576
+    erect_the_fence::Solution().test(); // # 587
     non_negative_integers_without_consecutive_ones::Solution().test(); // # 600
     can_place_flowers::Solution().test(); // # 605
     find_duplicate_file_in_system::Solution().test(); // # 609
