@@ -312,6 +312,7 @@
 #include "src/ugly_number/Solution.h"
 #include "src/erect_the_fence/Solution.h"
 #include "src/basic_calculator/Solution.h"
+#include "src/perfect_squares/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -454,6 +455,7 @@ int main() {
     ugly_number::Solution().test(); // # 263
     missing_number::Solution().test(); // # 268
     h_index_ii::Solution().test(); // # 275
+    perfect_squares::Solution().test(); // # 279
     game_of_life::Solution().test(); // # 289
     word_pattern::Solution().test(); // # 290
     find_median_from_data_stream::MedianFinder::test(); // # 295
