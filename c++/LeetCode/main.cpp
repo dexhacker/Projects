@@ -313,6 +313,9 @@
 #include "src/erect_the_fence/Solution.h"
 #include "src/basic_calculator/Solution.h"
 #include "src/perfect_squares/Solution.h"
+#include "src/sum_of_subarray_minimums/Solution.h"
+#include "src/maximum_profit_in_job_scheduling/Solution.h"
+#include "src/find_players_with_zero_or_one_losses/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -557,6 +560,7 @@ int main() {
     orderly_queue::Solution().test(); // # 899
     online_stock_span::StockSpanner::test(); // # 901
     numbers_at_most_n_given_digit_set::Solution().test(); // # 902
+    sum_of_subarray_minimums::Solution().test(); // # 907
     partition_array_into_disjoint_intervals::Solution().test(); // # 915
     flip_string_to_monotone_increasing::Solution().test(); // # 926
     three_equal_parts::Solution().test(); // # 927
@@ -586,6 +590,7 @@ int main() {
     can_make_palindrome_from_substring::Solution().test(); // # 1177
     minimum_absolute_difference::Solution().test(); // # 1200
     count_vowels_permutation::Solution().test(); // # 1220
+    maximum_profit_in_job_scheduling::Solution().test(); // # 1235
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
     maximum_length_of_a_concatenated_string_with_unique_characters::Solution().test(); // # 1239
     count_number_of_nice_subarrays::Solution().test(); // # 1248
@@ -628,6 +633,7 @@ int main() {
     recover_the_original_array::Solution().test(); // # 2122
     longest_palindrome_by_concatenating_two_letter_words::Solution().test(); // # 2131
     earliest_possible_day_of_full_bloom::Solution().test(); // # 2136
+    find_players_with_zero_or_one_losses::Solution().test(); // # 2225
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
 
