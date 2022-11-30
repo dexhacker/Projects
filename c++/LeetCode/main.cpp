@@ -316,6 +316,7 @@
 #include "src/sum_of_subarray_minimums/Solution.h"
 #include "src/maximum_profit_in_job_scheduling/Solution.h"
 #include "src/find_players_with_zero_or_one_losses/Solution.h"
+#include "src/unique_number_of_occurrences/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -589,6 +590,7 @@ int main() {
     prime_arrangements::Solution().test(); // # 1175
     can_make_palindrome_from_substring::Solution().test(); // # 1177
     minimum_absolute_difference::Solution().test(); // # 1200
+    unique_number_of_occurrences::Solution().test(); // # 1207
     count_vowels_permutation::Solution().test(); // # 1220
     maximum_profit_in_job_scheduling::Solution().test(); // # 1235
     find_positive_integer_solution_for_a_given_equation::Solution().test(); // # 1237
