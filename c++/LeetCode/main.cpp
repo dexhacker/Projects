@@ -317,6 +317,7 @@
 #include "src/maximum_profit_in_job_scheduling/Solution.h"
 #include "src/find_players_with_zero_or_one_losses/Solution.h"
 #include "src/unique_number_of_occurrences/Solution.h"
+#include "src/determine_if_string_halves_are_alike/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -618,6 +619,7 @@ int main() {
     concatenation_of_consecutive_binary_numbers::Solution().test(); // # 1680
     stone_game_vii::Solution().test(); // # 1690
     jump_game_vi::Solution().test(); // # 1696
+    determine_if_string_halves_are_alike::Solution().test(); // # 1704
     where_will_the_ball_fall::Solution().test(); // # 1706
     maximum_units_on_a_truck::Solution().test(); // # 1710
     maximum_score_from_performing_multiplication_operations::Solution().test(); // # 1770
