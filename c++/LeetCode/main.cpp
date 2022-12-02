@@ -319,6 +319,7 @@
 #include "src/unique_number_of_occurrences/Solution.h"
 #include "src/determine_if_string_halves_are_alike/Solution.h"
 #include "src/determine_if_two_strings_are_close/Solution.h"
+#include "src/unique_paths/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -382,6 +383,7 @@ int main() {
     spiral_matrix_ii::Solution().test(); // # 59
     permutation_sequence::Solution().test(); // # 60
     rotate_list::Solution().test(); // # 61
+    unique_paths::Solution().test(); // # 62
     add_binary::Solution().test(); // # 67
     sqrtx::Solution().test(); // # 69
     minimum_window_substring::Solution().test(); // # 76
