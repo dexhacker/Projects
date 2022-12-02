@@ -318,6 +318,7 @@
 #include "src/find_players_with_zero_or_one_losses/Solution.h"
 #include "src/unique_number_of_occurrences/Solution.h"
 #include "src/determine_if_string_halves_are_alike/Solution.h"
+#include "src/determine_if_two_strings_are_close/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -615,6 +616,7 @@ int main() {
     string_compression_ii::Solution().test(); // # 1531
     make_the_string_great::Solution().test(); // # 1544
     minimum_time_to_make_rope_colorful::Solution().test(); // # 1578
+    determine_if_two_strings_are_close::Solution().test(); // # 1657
     check_if_two_string_arrays_are_equivalent::Solution().test(); // # 1662
     concatenation_of_consecutive_binary_numbers::Solution().test(); // # 1680
     stone_game_vii::Solution().test(); // # 1690
