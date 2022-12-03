@@ -320,6 +320,7 @@
 #include "src/determine_if_string_halves_are_alike/Solution.h"
 #include "src/determine_if_two_strings_are_close/Solution.h"
 #include "src/unique_paths/Solution.h"
+#include "src/sort_characters_by_frequency/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -499,6 +500,7 @@ int main() {
     find_all_anagrams_in_a_string::Solution().test(); // # 438
     arranging_coins::Solution().test(); // # 441
     find_all_numbers_disappeared_in_an_array::Solution().test(); // # 448
+    sort_characters_by_frequency::Solution().test(); // # 451
     minimum_number_of_arrows_to_burst_balloons::Solution().test(); // # 452
     sum_ii4::Solution().test(); // # 454
     pattern132::Solution().test(); // # 456
