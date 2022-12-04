@@ -321,6 +321,7 @@
 #include "src/determine_if_two_strings_are_close/Solution.h"
 #include "src/unique_paths/Solution.h"
 #include "src/sort_characters_by_frequency/Solution.h"
+#include "src/minimum_average_difference/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -644,6 +645,7 @@ int main() {
     longest_palindrome_by_concatenating_two_letter_words::Solution().test(); // # 2131
     earliest_possible_day_of_full_bloom::Solution().test(); // # 2136
     find_players_with_zero_or_one_losses::Solution().test(); // # 2225
+    minimum_average_difference::Solution().test(); // # 2256
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
 
