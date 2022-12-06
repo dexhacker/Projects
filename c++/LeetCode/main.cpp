@@ -322,6 +322,7 @@
 #include "src/unique_paths/Solution.h"
 #include "src/sort_characters_by_frequency/Solution.h"
 #include "src/minimum_average_difference/Solution.h"
+#include "src/odd_even_linked_list/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -478,6 +479,7 @@ int main() {
     super_ugly_number::Solution().test(); // # 313
     count_of_smaller_numbers_after_self::Solution().test(); // # 315
     coin_change::Solution().test(); // # 322
+    odd_even_linked_list::Solution().test(); // # 328
     increasing_triplet_subsequence::Solution().test(); // # 334
     palindrome_pairs::Solution().test(); // # 336
     counting_bits::Solution().test(); // # 338
