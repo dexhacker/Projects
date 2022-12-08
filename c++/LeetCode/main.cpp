@@ -323,6 +323,7 @@
 #include "src/sort_characters_by_frequency/Solution.h"
 #include "src/minimum_average_difference/Solution.h"
 #include "src/odd_even_linked_list/Solution.h"
+#include "src/leaf_similar_trees/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -565,6 +566,7 @@ int main() {
     score_of_parentheses::Solution().test(); // # 856
     smallest_subtree_with_all_the_deepest_nodes::Solution().test(); // # 865
     minimum_number_of_refueling_stops::Solution().test(); // # 871
+    leaf_similar_trees::Solution().test(); // # 872
     middle_of_the_linked_list::Solution().test(); // # 876
     stone_game::Solution().test(); // # 877
     orderly_queue::Solution().test(); // # 899
