@@ -324,6 +324,8 @@
 #include "src/minimum_average_difference/Solution.h"
 #include "src/odd_even_linked_list/Solution.h"
 #include "src/leaf_similar_trees/Solution.h"
+#include "src/maximum_product_of_splitted_binary_tree/Solution.h"
+#include "src/binary_tree_maximum_path_sum/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -414,6 +416,7 @@ int main() {
     best_time_to_buy_and_sell_stock::Solution().test(); // # 121
     best_time_to_buy_and_sell_stock_ii::Solution().test(); // # 122
     valid_palindrome::Solution().test(); // # 123
+    binary_tree_maximum_path_sum::Solution().test(); // # 124
     word_ladder_ii::Solution().test(); // # 126
     word_ladder::Solution().test(); // # 127
     longest_consecutive_sequence::Solution().test(); // # 128
@@ -612,6 +615,7 @@ int main() {
     break_a_palindrome::Solution().test(); // # 1328
     minimum_difficulty_of_a_job_schedule::Solution().test(); // # 1335
     reduce_array_size_to_the_half::Solution().test(); // # 1338
+    maximum_product_of_splitted_binary_tree::Solution().test(); // # 1339
     closest_divisors::Solution().test(); // # 1362
     maximum_performance_of_a_team::Solution().test(); // # 1383
     four_divisors::Solution().test(); // # 1390
