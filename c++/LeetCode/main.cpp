@@ -326,6 +326,7 @@
 #include "src/leaf_similar_trees/Solution.h"
 #include "src/maximum_product_of_splitted_binary_tree/Solution.h"
 #include "src/binary_tree_maximum_path_sum/Solution.h"
+#include "src/climbing_stairs/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -392,6 +393,7 @@ int main() {
     unique_paths::Solution().test(); // # 62
     add_binary::Solution().test(); // # 67
     sqrtx::Solution().test(); // # 69
+    climbing_stairs::Solution().test(); // # 70
     minimum_window_substring::Solution().test(); // # 76
     subsets::Solution().test(); // # 78
     word_search::Solution().test(); // # 79
