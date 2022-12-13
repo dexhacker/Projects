@@ -3,7 +3,6 @@
 //
 
 #include "Solution.h"
-#include <bits/stdc++.h>
 #include <cassert>
 
 int minimum_average_difference::Solution::minimumAverageDifference(vector<int> &nums) {

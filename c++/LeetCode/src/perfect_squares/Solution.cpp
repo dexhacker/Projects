@@ -4,7 +4,7 @@
 
 #include "Solution.h"
 #include <vector>
-#include <bits/stdc++.h>
+#include <cmath>
 #include <cassert>
 
 int perfect_squares::Solution::numSquares(int n) {

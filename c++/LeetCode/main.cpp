@@ -327,6 +327,7 @@
 #include "src/maximum_product_of_splitted_binary_tree/Solution.h"
 #include "src/binary_tree_maximum_path_sum/Solution.h"
 #include "src/climbing_stairs/Solution.h"
+#include "src/minimum_falling_path_sum/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -581,6 +582,7 @@ int main() {
     partition_array_into_disjoint_intervals::Solution().test(); // # 915
     flip_string_to_monotone_increasing::Solution().test(); // # 926
     three_equal_parts::Solution().test(); // # 927
+    minimum_falling_path_sum::Solution().test(); // # 931
     number_of_recent_calls::RecentCounter::test(); // # 933
     range_sum_of_bst::Solution().test(); // # 938
     bag_of_tokens::Solution().test(); // # 938
