@@ -3,6 +3,7 @@
 //
 
 #include "Solution.h"
+#include <climits>
 #include <cassert>
 
 int guess_number_higher_or_lower::Solution::guess(int num) {

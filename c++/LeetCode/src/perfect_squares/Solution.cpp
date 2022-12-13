@@ -5,6 +5,7 @@
 #include "Solution.h"
 #include <vector>
 #include <cmath>
+#include <climits>
 #include <cassert>
 
 int perfect_squares::Solution::numSquares(int n) {
