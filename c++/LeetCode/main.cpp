@@ -328,6 +328,7 @@
 #include "src/binary_tree_maximum_path_sum/Solution.h"
 #include "src/climbing_stairs/Solution.h"
 #include "src/minimum_falling_path_sum/Solution.h"
+#include "src/longest_common_subsequence/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -604,6 +605,7 @@ int main() {
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
     distribute_candies_to_people::Solution().test(); // # 1103
     n_th_tribonacci_number::Solution().test(); // # 1137
+    longest_common_subsequence::Solution().test(); // # 1143
     number_of_dice_rolls_with_target_sum::Solution().test(); // # 1155
     prime_arrangements::Solution().test(); // # 1175
     can_make_palindrome_from_substring::Solution().test(); // # 1177
