@@ -331,6 +331,7 @@
 #include "src/longest_common_subsequence/Solution.h"
 #include "src/evaluate_reverse_polish_notation/Solution.h"
 #include "src/daily_temperatures/Solution.h"
+#include "src/find_if_path_exists_in_graph/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -657,6 +658,7 @@ int main() {
     nearest_exit_from_entrance_in_maze::Solution().test(); // # 1926
     sum_game::Solution().test(); // # 1927
     minimum_cost_to_reach_destination_in_time::Solution().test(); // # 1928
+    find_if_path_exists_in_graph::Solution().test(); // # 1971
     find_original_array_from_doubled_array::Solution().test(); // # 2007
     delete_the_middle_node_of_a_linked_list::Solution().test(); // # 2095
     recover_the_original_array::Solution().test(); // # 2122
