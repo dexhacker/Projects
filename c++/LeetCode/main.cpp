@@ -332,6 +332,7 @@
 #include "src/evaluate_reverse_polish_notation/Solution.h"
 #include "src/daily_temperatures/Solution.h"
 #include "src/find_if_path_exists_in_graph/Solution.h"
+#include "src/keys_and_rooms/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -575,6 +576,7 @@ int main() {
     flipping_an_image::Solution().test(); // # 832
     image_overlap::Solution().test(); // # 835
     push_dominoes::Solution().test(); // # 838
+    keys_and_rooms::Solution().test(); // # 841
     score_of_parentheses::Solution().test(); // # 856
     smallest_subtree_with_all_the_deepest_nodes::Solution().test(); // # 865
     minimum_number_of_refueling_stops::Solution().test(); // # 871
