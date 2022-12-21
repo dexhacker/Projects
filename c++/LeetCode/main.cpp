@@ -333,6 +333,7 @@
 #include "src/daily_temperatures/Solution.h"
 #include "src/find_if_path_exists_in_graph/Solution.h"
 #include "src/keys_and_rooms/Solution.h"
+#include "src/possible_bipartition/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -583,6 +584,7 @@ int main() {
     leaf_similar_trees::Solution().test(); // # 872
     middle_of_the_linked_list::Solution().test(); // # 876
     stone_game::Solution().test(); // # 877
+    possible_bipartition::Solution().test(); // # 886
     orderly_queue::Solution().test(); // # 899
     online_stock_span::StockSpanner::test(); // # 901
     numbers_at_most_n_given_digit_set::Solution().test(); // # 902
