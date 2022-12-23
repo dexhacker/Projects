@@ -334,6 +334,8 @@
 #include "src/find_if_path_exists_in_graph/Solution.h"
 #include "src/keys_and_rooms/Solution.h"
 #include "src/possible_bipartition/Solution.h"
+#include "src/sum_of_distances_in_tree/Solution.h"
+#include "src/best_time_to_buy_and_sell_stock_with_cooldown/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -488,6 +490,7 @@ int main() {
     range_sum_query_immutable::NumArray::test(); // # 303
     range_sum_query_2d_immutable::NumMatrix::test(); // # 304
     range_sum_query_mutable::NumArray::test(); // # 307
+    best_time_to_buy_and_sell_stock_with_cooldown::Solution().test(); // # 309
     minimum_height_trees::Solution().test(); // # 310
     burst_balloons::Solution().test(); // # 312
     super_ugly_number::Solution().test(); // # 313
@@ -575,6 +578,7 @@ int main() {
     number_of_subarrays_with_bounded_maximum::Solution().test(); // # 795
     binary_tree_pruning::Solution().test(); // # 814
     flipping_an_image::Solution().test(); // # 832
+    sum_of_distances_in_tree::Solution().test(); // # 834
     image_overlap::Solution().test(); // # 835
     push_dominoes::Solution().test(); // # 838
     keys_and_rooms::Solution().test(); // # 841
