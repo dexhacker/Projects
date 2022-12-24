@@ -336,6 +336,7 @@
 #include "src/possible_bipartition/Solution.h"
 #include "src/sum_of_distances_in_tree/Solution.h"
 #include "src/best_time_to_buy_and_sell_stock_with_cooldown/Solution.h"
+#include "src/domino_and_tromino_tiling/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -572,6 +573,7 @@ int main() {
     prime_number_of_set_bits_in_binary_representation::Solution().test(); // # 762
     toeplitz_matrix::Solution().test(); // # 766
     swim_in_rising_water::Solution().test(); // # 778
+    domino_and_tromino_tiling::Solution().test(); // # 790
     custom_sort_string::Solution().test(); // # 791
     number_of_matching_subsequences::Solution().test(); // # 792
     valid_tic_tac_toe_state::Solution().test(); // # 794
