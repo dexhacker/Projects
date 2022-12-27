@@ -338,6 +338,7 @@
 #include "src/best_time_to_buy_and_sell_stock_with_cooldown/Solution.h"
 #include "src/domino_and_tromino_tiling/Solution.h"
 #include "src/longest_subsequence_with_limited_sum/Solution.h"
+#include "src/maximum_bags_with_full_capacity_of_rocks/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -677,6 +678,7 @@ int main() {
     earliest_possible_day_of_full_bloom::Solution().test(); // # 2136
     find_players_with_zero_or_one_losses::Solution().test(); // # 2225
     minimum_average_difference::Solution().test(); // # 2256
+    maximum_bags_with_full_capacity_of_rocks::Solution().test(); // # 2279
     longest_subsequence_with_limited_sum::Solution().test(); // # 2389
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
