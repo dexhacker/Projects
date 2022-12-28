@@ -339,6 +339,7 @@
 #include "src/domino_and_tromino_tiling/Solution.h"
 #include "src/longest_subsequence_with_limited_sum/Solution.h"
 #include "src/maximum_bags_with_full_capacity_of_rocks/Solution.h"
+#include "src/remove_stones_to_minimize_the_total/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -670,6 +671,7 @@ int main() {
     nearest_exit_from_entrance_in_maze::Solution().test(); // # 1926
     sum_game::Solution().test(); // # 1927
     minimum_cost_to_reach_destination_in_time::Solution().test(); // # 1928
+    remove_stones_to_minimize_the_total::Solution().test(); // # 1962
     find_if_path_exists_in_graph::Solution().test(); // # 1971
     find_original_array_from_doubled_array::Solution().test(); // # 2007
     delete_the_middle_node_of_a_linked_list::Solution().test(); // # 2095
