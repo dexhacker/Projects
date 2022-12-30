@@ -340,6 +340,8 @@
 #include "src/longest_subsequence_with_limited_sum/Solution.h"
 #include "src/maximum_bags_with_full_capacity_of_rocks/Solution.h"
 #include "src/remove_stones_to_minimize_the_total/Solution.h"
+#include "src/single_threaded_cpu/Solution.h"
+#include "src/all_paths_from_source_to_target/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -581,6 +583,7 @@ int main() {
     number_of_matching_subsequences::Solution().test(); // # 792
     valid_tic_tac_toe_state::Solution().test(); // # 794
     number_of_subarrays_with_bounded_maximum::Solution().test(); // # 795
+    all_paths_from_source_to_target::Solution().test(); // # 797
     binary_tree_pruning::Solution().test(); // # 814
     flipping_an_image::Solution().test(); // # 832
     sum_of_distances_in_tree::Solution().test(); // # 834
@@ -663,6 +666,7 @@ int main() {
     maximum_units_on_a_truck::Solution().test(); // # 1710
     maximum_score_from_performing_multiplication_operations::Solution().test(); // # 1770
     check_if_the_sentence_is_pangram::Solution().test(); // # 1832
+    single_threaded_cpu::Solution().test(); // # 1834
     determine_whether_matrix_can_be_obtained_by_rotation::Solution().test(); // # 1886
     reduction_operations_to_make_the_array_elements_equal::Solution().test(); // # 1887
     minimum_number_of_flips_to_make_the_binary_string_alternating::Solution().test(); // # 1888
