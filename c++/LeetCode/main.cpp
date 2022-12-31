@@ -342,6 +342,7 @@
 #include "src/remove_stones_to_minimize_the_total/Solution.h"
 #include "src/single_threaded_cpu/Solution.h"
 #include "src/all_paths_from_source_to_target/Solution.h"
+#include "src/unique_paths_iii/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -611,6 +612,7 @@ int main() {
     most_stones_removed_with_same_row_or_column::Solution().test(); // # 947
     k_closest_points_to_origin::Solution().test(); // # 973
     largest_perimeter_triangle::Solution().test(); // # 976
+    unique_paths_iii::Solution().test(); // # 980
     time_based_key_value_store::TimeMap::test(); // # 981
     sum_of_even_numbers_after_queries::Solution().test(); // # 985
     satisfiability_of_equality_equations::Solution().test(); // # 990
