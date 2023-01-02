@@ -343,6 +343,7 @@
 #include "src/single_threaded_cpu/Solution.h"
 #include "src/all_paths_from_source_to_target/Solution.h"
 #include "src/unique_paths_iii/Solution.h"
+#include "src/detect_capital/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -536,6 +537,7 @@ int main() {
     ones_and_zeroes::Solution().test(); // # 474
     number_complement::Solution().test(); // # 476
     fibonacci_number::Solution().test(); // # 509
+    detect_capital::Solution().test(); // # 520
     continuous_subarray_sum::Solution().test(); // # 523
     find_k_closest_elements::Solution().test(); // # 658
     k_th_symbol_in_grammar::Solution().test(); // # 746
