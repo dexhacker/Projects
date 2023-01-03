@@ -344,6 +344,7 @@
 #include "src/all_paths_from_source_to_target/Solution.h"
 #include "src/unique_paths_iii/Solution.h"
 #include "src/detect_capital/Solution.h"
+#include "src/delete_columns_to_make_sorted/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -611,6 +612,7 @@ int main() {
     number_of_recent_calls::RecentCounter::test(); // # 933
     range_sum_of_bst::Solution().test(); // # 938
     bag_of_tokens::Solution().test(); // # 938
+    delete_columns_to_make_sorted::Solution().test(); // # 944
     most_stones_removed_with_same_row_or_column::Solution().test(); // # 947
     k_closest_points_to_origin::Solution().test(); // # 973
     largest_perimeter_triangle::Solution().test(); // # 976
