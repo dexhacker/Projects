@@ -345,6 +345,7 @@
 #include "src/unique_paths_iii/Solution.h"
 #include "src/detect_capital/Solution.h"
 #include "src/delete_columns_to_make_sorted/Solution.h"
+#include "src/minimum_rounds_to_complete_all_tasks/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -689,6 +690,7 @@ int main() {
     longest_palindrome_by_concatenating_two_letter_words::Solution().test(); // # 2131
     earliest_possible_day_of_full_bloom::Solution().test(); // # 2136
     find_players_with_zero_or_one_losses::Solution().test(); // # 2225
+    minimum_rounds_to_complete_all_tasks::Solution().test(); // # 2244
     minimum_average_difference::Solution().test(); // # 2256
     maximum_bags_with_full_capacity_of_rocks::Solution().test(); // # 2279
     longest_subsequence_with_limited_sum::Solution().test(); // # 2389
