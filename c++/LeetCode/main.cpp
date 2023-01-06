@@ -346,6 +346,7 @@
 #include "src/detect_capital/Solution.h"
 #include "src/delete_columns_to_make_sorted/Solution.h"
 #include "src/minimum_rounds_to_complete_all_tasks/Solution.h"
+#include "src/maximum_ice_cream_bars/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -673,6 +674,7 @@ int main() {
     maximum_units_on_a_truck::Solution().test(); // # 1710
     maximum_score_from_performing_multiplication_operations::Solution().test(); // # 1770
     check_if_the_sentence_is_pangram::Solution().test(); // # 1832
+    maximum_ice_cream_bars::Solution().test(); // # 1833
     single_threaded_cpu::Solution().test(); // # 1834
     determine_whether_matrix_can_be_obtained_by_rotation::Solution().test(); // # 1886
     reduction_operations_to_make_the_array_elements_equal::Solution().test(); // # 1887
