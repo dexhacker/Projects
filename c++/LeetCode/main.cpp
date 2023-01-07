@@ -347,6 +347,7 @@
 #include "src/delete_columns_to_make_sorted/Solution.h"
 #include "src/minimum_rounds_to_complete_all_tasks/Solution.h"
 #include "src/maximum_ice_cream_bars/Solution.h"
+#include "src/gas_station/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -444,6 +445,7 @@ int main() {
     longest_consecutive_sequence::Solution().test(); // # 128
     palindrome_partitioning::Solution().test(); // # 131
     clone_graph::Solution().test(); // # 133
+    gas_station::Solution().test(); // # 134
     candy::Solution().test(); // # 135
     single_number::Solution().test(); // # 136
     copy_list_with_random_pointer::Solution().test(); // # 138
