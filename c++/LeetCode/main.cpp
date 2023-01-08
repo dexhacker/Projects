@@ -348,6 +348,7 @@
 #include "src/minimum_rounds_to_complete_all_tasks/Solution.h"
 #include "src/maximum_ice_cream_bars/Solution.h"
 #include "src/gas_station/Solution.h"
+#include "src/max_points_on_a_line/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -455,6 +456,7 @@ int main() {
     binary_tree_preorder_traversal::Solution().test(); // # 144
     binary_tree_postorder_traversal::Solution().test(); // # 145
     insertion_sort_list::Solution().test(); // # 147
+    max_points_on_a_line::Solution().test(); // # 149
     evaluate_reverse_polish_notation::Solution().test(); // # 150
     reverse_words_in_a_string::Solution().test(); // # 151
     find_minimum_in_rotated_sorted_array::Solution().test(); // # 153
