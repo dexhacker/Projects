@@ -349,6 +349,7 @@
 #include "src/maximum_ice_cream_bars/Solution.h"
 #include "src/gas_station/Solution.h"
 #include "src/max_points_on_a_line/Solution.h"
+#include "src/minimum_time_to_collect_all_apples_in_a_tree/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -659,6 +660,7 @@ int main() {
     maximum_performance_of_a_team::Solution().test(); // # 1383
     four_divisors::Solution().test(); // # 1390
     number_of_ways_to_wear_different_hats_to_each_other::Solution().test(); // # 1434
+    minimum_time_to_collect_all_apples_in_a_tree::Solution().test(); // # 1443
     consecutive_characters::Solution().test(); // # 1446
     simplified_fractions::Solution().test(); // # 1447
     pseudo_palindromic_paths_in_a_binary_tree::Solution().test(); // # 1457
