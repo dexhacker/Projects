@@ -350,6 +350,7 @@
 #include "src/gas_station/Solution.h"
 #include "src/max_points_on_a_line/Solution.h"
 #include "src/minimum_time_to_collect_all_apples_in_a_tree/Solution.h"
+#include "src/number_of_nodes_in_the_sub_tree_with_the_same_label/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -667,6 +668,7 @@ int main() {
     maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts::Solution().test(); // # 1465
     the_kth_factor_of_n::Solution().test(); // # 1492
     path_with_maximum_probability::Solution().test(); // # 1514
+    number_of_nodes_in_the_sub_tree_with_the_same_label::Solution().test(); // # 1519
     string_compression_ii::Solution().test(); // # 1531
     make_the_string_great::Solution().test(); // # 1544
     minimum_time_to_make_rope_colorful::Solution().test(); // # 1578
