@@ -351,6 +351,7 @@
 #include "src/max_points_on_a_line/Solution.h"
 #include "src/minimum_time_to_collect_all_apples_in_a_tree/Solution.h"
 #include "src/number_of_nodes_in_the_sub_tree_with_the_same_label/Solution.h"
+#include "src/longest_path_with_different_adjacent_characters/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -701,6 +702,7 @@ int main() {
     earliest_possible_day_of_full_bloom::Solution().test(); // # 2136
     find_players_with_zero_or_one_losses::Solution().test(); // # 2225
     minimum_rounds_to_complete_all_tasks::Solution().test(); // # 2244
+    longest_path_with_different_adjacent_characters::Solution().test(); // # 2246
     minimum_average_difference::Solution().test(); // # 2256
     maximum_bags_with_full_capacity_of_rocks::Solution().test(); // # 2279
     longest_subsequence_with_limited_sum::Solution().test(); // # 2389
