@@ -352,6 +352,7 @@
 #include "src/minimum_time_to_collect_all_apples_in_a_tree/Solution.h"
 #include "src/number_of_nodes_in_the_sub_tree_with_the_same_label/Solution.h"
 #include "src/longest_path_with_different_adjacent_characters/Solution.h"
+#include "src/lexicographically_smallest_equivalent_string/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -638,6 +639,7 @@ int main() {
     divisor_game::Solution().test(); // # 1025
     maximum_difference_between_node_and_ancestor::Solution().test(); // # 1026
     remove_all_adjacent_duplicates_in_string::Solution().test(); // # 1047
+    lexicographically_smallest_equivalent_string::Solution().test(); // # 1061
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
     distribute_candies_to_people::Solution().test(); // # 1103
     n_th_tribonacci_number::Solution().test(); // # 1137
