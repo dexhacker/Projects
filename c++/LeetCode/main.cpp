@@ -353,6 +353,7 @@
 #include "src/number_of_nodes_in_the_sub_tree_with_the_same_label/Solution.h"
 #include "src/longest_path_with_different_adjacent_characters/Solution.h"
 #include "src/lexicographically_smallest_equivalent_string/Solution.h"
+#include "src/number_of_good_paths/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -710,6 +711,7 @@ int main() {
     longest_subsequence_with_limited_sum::Solution().test(); // # 2389
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
+    number_of_good_paths::Solution().test(); // # 2421
 
     return 0;
 }
