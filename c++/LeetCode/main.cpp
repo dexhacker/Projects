@@ -354,6 +354,8 @@
 #include "src/longest_path_with_different_adjacent_characters/Solution.h"
 #include "src/lexicographically_smallest_equivalent_string/Solution.h"
 #include "src/number_of_good_paths/Solution.h"
+#include "src/maximum_sum_circular_subarray/Solution.h"
+#include "src/subarray_sums_divisible_by_k/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -617,6 +619,7 @@ int main() {
     numbers_at_most_n_given_digit_set::Solution().test(); // # 902
     sum_of_subarray_minimums::Solution().test(); // # 907
     partition_array_into_disjoint_intervals::Solution().test(); // # 915
+    maximum_sum_circular_subarray::Solution().test(); // # 918
     flip_string_to_monotone_increasing::Solution().test(); // # 926
     three_equal_parts::Solution().test(); // # 927
     minimum_falling_path_sum::Solution().test(); // # 931
@@ -626,6 +629,7 @@ int main() {
     delete_columns_to_make_sorted::Solution().test(); // # 944
     most_stones_removed_with_same_row_or_column::Solution().test(); // # 947
     k_closest_points_to_origin::Solution().test(); // # 973
+    subarray_sums_divisible_by_k::Solution().test(); // # 974
     largest_perimeter_triangle::Solution().test(); // # 976
     unique_paths_iii::Solution().test(); // # 980
     time_based_key_value_store::TimeMap::test(); // # 981
