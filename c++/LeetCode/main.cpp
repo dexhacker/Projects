@@ -356,6 +356,7 @@
 #include "src/number_of_good_paths/Solution.h"
 #include "src/maximum_sum_circular_subarray/Solution.h"
 #include "src/subarray_sums_divisible_by_k/Solution.h"
+#include "src/non_decreasing_subsequences/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -550,6 +551,7 @@ int main() {
     matchsticks_to_square::Solution().test(); // # 473
     ones_and_zeroes::Solution().test(); // # 474
     number_complement::Solution().test(); // # 476
+    non_decreasing_subsequences::Solution().test(); // # 491
     fibonacci_number::Solution().test(); // # 509
     detect_capital::Solution().test(); // # 520
     continuous_subarray_sum::Solution().test(); // # 523
