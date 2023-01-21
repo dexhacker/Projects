@@ -357,6 +357,7 @@
 #include "src/maximum_sum_circular_subarray/Solution.h"
 #include "src/subarray_sums_divisible_by_k/Solution.h"
 #include "src/non_decreasing_subsequences/Solution.h"
+#include "src/restore_ip_addresses/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -430,6 +431,7 @@ int main() {
     gray_code::Solution().test(); // # 89
     decode_ways::Solution().test(); // # 91
     reverse_linked_list_ii::Solution().test(); // # 92
+    restore_ip_addresses::Solution().test(); // # 93
     binary_tree_inorder_traversal::Solution().test(); // # 94
     interleaving_string::Solution().test(); // # 97
     validate_binary_search_tree::Solution().test(); // # 98
