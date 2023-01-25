@@ -358,6 +358,8 @@
 #include "src/subarray_sums_divisible_by_k/Solution.h"
 #include "src/non_decreasing_subsequences/Solution.h"
 #include "src/restore_ip_addresses/Solution.h"
+#include "src/snakes_and_ladders/Solution.h"
+#include "src/find_closest_node_to_given_two_nodes/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -622,6 +624,7 @@ int main() {
     online_stock_span::StockSpanner::test(); // # 901
     numbers_at_most_n_given_digit_set::Solution().test(); // # 902
     sum_of_subarray_minimums::Solution().test(); // # 907
+    snakes_and_ladders::Solution().test(); // # 909
     partition_array_into_disjoint_intervals::Solution().test(); // # 915
     maximum_sum_circular_subarray::Solution().test(); // # 918
     flip_string_to_monotone_increasing::Solution().test(); // # 926
@@ -716,6 +719,7 @@ int main() {
     longest_path_with_different_adjacent_characters::Solution().test(); // # 2246
     minimum_average_difference::Solution().test(); // # 2256
     maximum_bags_with_full_capacity_of_rocks::Solution().test(); // # 2279
+    find_closest_node_to_given_two_nodes::Solution().test(); // # 2359
     longest_subsequence_with_limited_sum::Solution().test(); // # 2389
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
