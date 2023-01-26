@@ -360,6 +360,7 @@
 #include "src/restore_ip_addresses/Solution.h"
 #include "src/snakes_and_ladders/Solution.h"
 #include "src/find_closest_node_to_given_two_nodes/Solution.h"
+#include "src/cheapest_flights_within_k_stops/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -601,6 +602,7 @@ int main() {
     prime_number_of_set_bits_in_binary_representation::Solution().test(); // # 762
     toeplitz_matrix::Solution().test(); // # 766
     swim_in_rising_water::Solution().test(); // # 778
+    cheapest_flights_within_k_stops::Solution().test(); // # 787
     domino_and_tromino_tiling::Solution().test(); // # 790
     custom_sort_string::Solution().test(); // # 791
     number_of_matching_subsequences::Solution().test(); // # 792
