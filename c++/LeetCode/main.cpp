@@ -361,6 +361,7 @@
 #include "src/snakes_and_ladders/Solution.h"
 #include "src/find_closest_node_to_given_two_nodes/Solution.h"
 #include "src/cheapest_flights_within_k_stops/Solution.h"
+#include "src/concatenated_words/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -553,6 +554,7 @@ int main() {
     sum_ii4::Solution().test(); // # 454
     pattern132::Solution().test(); // # 456
     unique_substrings_in_wraparound_string::Solution().test(); // # 467
+    concatenated_words::Solution().test(); // # 472
     matchsticks_to_square::Solution().test(); // # 473
     ones_and_zeroes::Solution().test(); // # 474
     number_complement::Solution().test(); // # 476
