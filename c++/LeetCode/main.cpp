@@ -362,6 +362,7 @@
 #include "src/find_closest_node_to_given_two_nodes/Solution.h"
 #include "src/cheapest_flights_within_k_stops/Solution.h"
 #include "src/concatenated_words/Solution.h"
+#include "src/data_stream_as_disjoint_intervals/SummaryRanges.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -533,6 +534,7 @@ int main() {
     reverse_vowels_of_a_string::Solution().test(); // # 345
     top_k_frequent_elements::Solution().test(); // # 347
     intersection_of_two_arrays_ii::Solution().test(); // # 350
+    data_stream_as_disjoint_intervals::SummaryRanges::test(); // # 352
     sum_of_two_integers::Solution().test(); // # 371
     guess_number_higher_or_lower::Solution().test(); // # 374
     kth_smallest_element_in_a_sorted_matrix::Solution().test(); // # 378
