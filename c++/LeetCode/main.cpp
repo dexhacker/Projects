@@ -363,6 +363,7 @@
 #include "src/cheapest_flights_within_k_stops/Solution.h"
 #include "src/concatenated_words/Solution.h"
 #include "src/data_stream_as_disjoint_intervals/SummaryRanges.h"
+#include "src/lfu_cache/LFUCache.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -555,6 +556,7 @@ int main() {
     minimum_number_of_arrows_to_burst_balloons::Solution().test(); // # 452
     sum_ii4::Solution().test(); // # 454
     pattern132::Solution().test(); // # 456
+    lfu_cache::LFUCache::test(); // # 460
     unique_substrings_in_wraparound_string::Solution().test(); // # 467
     concatenated_words::Solution().test(); // # 472
     matchsticks_to_square::Solution().test(); // # 473
