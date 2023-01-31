@@ -364,6 +364,7 @@
 #include "src/concatenated_words/Solution.h"
 #include "src/data_stream_as_disjoint_intervals/SummaryRanges.h"
 #include "src/lfu_cache/LFUCache.h"
+#include "src/best_team_with_no_conflicts/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -695,6 +696,7 @@ int main() {
     string_compression_ii::Solution().test(); // # 1531
     make_the_string_great::Solution().test(); // # 1544
     minimum_time_to_make_rope_colorful::Solution().test(); // # 1578
+    best_team_with_no_conflicts::Solution().test(); // # 1626
     determine_if_two_strings_are_close::Solution().test(); // # 1657
     check_if_two_string_arrays_are_equivalent::Solution().test(); // # 1662
     concatenation_of_consecutive_binary_numbers::Solution().test(); // # 1680
