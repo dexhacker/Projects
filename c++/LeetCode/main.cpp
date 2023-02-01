@@ -365,6 +365,7 @@
 #include "src/data_stream_as_disjoint_intervals/SummaryRanges.h"
 #include "src/lfu_cache/LFUCache.h"
 #include "src/best_team_with_no_conflicts/Solution.h"
+#include "src/greatest_common_divisor_of_strings/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -661,6 +662,7 @@ int main() {
     maximum_difference_between_node_and_ancestor::Solution().test(); // # 1026
     remove_all_adjacent_duplicates_in_string::Solution().test(); // # 1047
     lexicographically_smallest_equivalent_string::Solution().test(); // # 1061
+    greatest_common_divisor_of_strings::Solution().test(); // # 1071
     shortest_path_in_binary_matrix::Solution().test(); // # 1091
     distribute_candies_to_people::Solution().test(); // # 1103
     n_th_tribonacci_number::Solution().test(); // # 1137
