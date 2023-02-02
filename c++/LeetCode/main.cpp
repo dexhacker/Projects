@@ -366,6 +366,7 @@
 #include "src/lfu_cache/LFUCache.h"
 #include "src/best_team_with_no_conflicts/Solution.h"
 #include "src/greatest_common_divisor_of_strings/Solution.h"
+#include "src/verifying_an_alien_dictionary/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -645,6 +646,7 @@ int main() {
     bag_of_tokens::Solution().test(); // # 938
     delete_columns_to_make_sorted::Solution().test(); // # 944
     most_stones_removed_with_same_row_or_column::Solution().test(); // # 947
+    verifying_an_alien_dictionary::Solution().test(); // # 953
     k_closest_points_to_origin::Solution().test(); // # 973
     subarray_sums_divisible_by_k::Solution().test(); // # 974
     largest_perimeter_triangle::Solution().test(); // # 976
