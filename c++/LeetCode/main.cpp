@@ -367,6 +367,7 @@
 #include "src/best_team_with_no_conflicts/Solution.h"
 #include "src/greatest_common_divisor_of_strings/Solution.h"
 #include "src/verifying_an_alien_dictionary/Solution.h"
+#include "src/shuffle_the_array/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -694,6 +695,7 @@ int main() {
     simplified_fractions::Solution().test(); // # 1447
     pseudo_palindromic_paths_in_a_binary_tree::Solution().test(); // # 1457
     maximum_area_of_a_piece_of_cake_after_horizontal_and_vertical_cuts::Solution().test(); // # 1465
+    shuffle_the_array::Solution().test(); // # 1470
     the_kth_factor_of_n::Solution().test(); // # 1492
     path_with_maximum_probability::Solution().test(); // # 1514
     number_of_nodes_in_the_sub_tree_with_the_same_label::Solution().test(); // # 1519
