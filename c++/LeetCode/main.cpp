@@ -368,6 +368,7 @@
 #include "src/greatest_common_divisor_of_strings/Solution.h"
 #include "src/verifying_an_alien_dictionary/Solution.h"
 #include "src/shuffle_the_array/Solution.h"
+#include "src/fruit_into_baskets/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -635,6 +636,7 @@ int main() {
     orderly_queue::Solution().test(); // # 899
     online_stock_span::StockSpanner::test(); // # 901
     numbers_at_most_n_given_digit_set::Solution().test(); // # 902
+    fruit_into_baskets::Solution().test(); // # 904
     sum_of_subarray_minimums::Solution().test(); // # 907
     snakes_and_ladders::Solution().test(); // # 909
     partition_array_into_disjoint_intervals::Solution().test(); // # 915
