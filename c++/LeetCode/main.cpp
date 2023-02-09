@@ -369,6 +369,7 @@
 #include "src/verifying_an_alien_dictionary/Solution.h"
 #include "src/shuffle_the_array/Solution.h"
 #include "src/fruit_into_baskets/Solution.h"
+#include "src/naming_a_company/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -738,6 +739,7 @@ int main() {
     minimum_average_difference::Solution().test(); // # 2256
     maximum_bags_with_full_capacity_of_rocks::Solution().test(); // # 2279
     find_closest_node_to_given_two_nodes::Solution().test(); // # 2359
+    naming_a_company::Solution().test(); // # 2306
     longest_subsequence_with_limited_sum::Solution().test(); // # 2389
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
