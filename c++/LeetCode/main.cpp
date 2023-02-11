@@ -370,6 +370,7 @@
 #include "src/shuffle_the_array/Solution.h"
 #include "src/fruit_into_baskets/Solution.h"
 #include "src/naming_a_company/Solution.h"
+#include "src/shortest_path_with_alternating_colors/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -666,6 +667,7 @@ int main() {
     sum_of_root_to_leaf_binary_numbers::Solution().test(); // # 1022
     divisor_game::Solution().test(); // # 1025
     maximum_difference_between_node_and_ancestor::Solution().test(); // # 1026
+    shortest_path_with_alternating_colors::Solution().test(); // # 1029
     remove_all_adjacent_duplicates_in_string::Solution().test(); // # 1047
     lexicographically_smallest_equivalent_string::Solution().test(); // # 1061
     greatest_common_divisor_of_strings::Solution().test(); // # 1071
