@@ -371,6 +371,7 @@
 #include "src/fruit_into_baskets/Solution.h"
 #include "src/naming_a_company/Solution.h"
 #include "src/shortest_path_with_alternating_colors/Solution.h"
+#include "src/minimum_fuel_cost_to_report_to_the_capital/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -746,6 +747,7 @@ int main() {
     count_days_spent_together::Solution().test(); // # 2409
     maximum_matching_of_players_with_trainers::Solution().test(); // # 2410
     number_of_good_paths::Solution().test(); // # 2421
+    minimum_fuel_cost_to_report_to_the_capital::Solution().test(); // # 2477
 
     return 0;
 }
