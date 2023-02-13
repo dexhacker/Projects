@@ -372,6 +372,7 @@
 #include "src/naming_a_company/Solution.h"
 #include "src/shortest_path_with_alternating_colors/Solution.h"
 #include "src/minimum_fuel_cost_to_report_to_the_capital/Solution.h"
+#include "src/count_odd_numbers_in_an_interval_range/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -705,6 +706,7 @@ int main() {
     the_kth_factor_of_n::Solution().test(); // # 1492
     path_with_maximum_probability::Solution().test(); // # 1514
     number_of_nodes_in_the_sub_tree_with_the_same_label::Solution().test(); // # 1519
+    count_odd_numbers_in_an_interval_range::Solution().test(); // # 1523
     string_compression_ii::Solution().test(); // # 1531
     make_the_string_great::Solution().test(); // # 1544
     minimum_time_to_make_rope_colorful::Solution().test(); // # 1578
