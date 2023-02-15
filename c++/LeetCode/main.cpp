@@ -373,6 +373,7 @@
 #include "src/shortest_path_with_alternating_colors/Solution.h"
 #include "src/minimum_fuel_cost_to_report_to_the_capital/Solution.h"
 #include "src/count_odd_numbers_in_an_interval_range/Solution.h"
+#include "src/add_to_array_form_of_integer/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -660,6 +661,7 @@ int main() {
     unique_paths_iii::Solution().test(); // # 980
     time_based_key_value_store::TimeMap::test(); // # 981
     sum_of_even_numbers_after_queries::Solution().test(); // # 985
+    add_to_array_form_of_integer::Solution().test(); // # 989
     satisfiability_of_equality_equations::Solution().test(); // # 990
     find_the_town_judge::Solution().test(); // # 997
     max_consecutive_ones_iii::Solution().test(); // # 1004
