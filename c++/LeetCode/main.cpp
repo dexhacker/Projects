@@ -374,6 +374,8 @@
 #include "src/minimum_fuel_cost_to_report_to_the_capital/Solution.h"
 #include "src/count_odd_numbers_in_an_interval_range/Solution.h"
 #include "src/add_to_array_form_of_integer/Solution.h"
+#include "src/minimum_distance_between_bst_nodes/Solution.h"
+#include "src/minimum_absolute_difference_in_bst/Solution.h"
 
 int main() {
     two_sum::Solution().test(); // # 1
@@ -578,6 +580,7 @@ int main() {
     continuous_subarray_sum::Solution().test(); // # 523
     find_k_closest_elements::Solution().test(); // # 658
     k_th_symbol_in_grammar::Solution().test(); // # 746
+    minimum_absolute_difference_in_bst::Solution().test(); // # 530
     complex_number_multiplication::Solution().test(); // # 537
     number_of_provinces::Solution().test(); // # 547
     reverse_words_in_a_string_iii::Solution().test(); // # 557
@@ -618,6 +621,7 @@ int main() {
     prime_number_of_set_bits_in_binary_representation::Solution().test(); // # 762
     toeplitz_matrix::Solution().test(); // # 766
     swim_in_rising_water::Solution().test(); // # 778
+    minimum_distance_between_bst_nodes::Solution().test(); // # 783
     cheapest_flights_within_k_stops::Solution().test(); // # 787
     domino_and_tromino_tiling::Solution().test(); // # 790
     custom_sort_string::Solution().test(); // # 791
